@@ -20,6 +20,7 @@ override_dh_auto_clean:
 
 override_dh_auto_configure:
 	qmake qbs.pro \
+		CONFIG+=debug \
 		QMAKE_CFLAGS+="${CFLAGS} ${CPPFLAGS}" \
 		QMAKE_CXXFLAGS+="${CXXFLAGS} ${CPPFLAGS}" \
 		QMAKE_LFLAGS+="${LDFLAGS}" \
@@ -30,6 +31,10 @@ override_dh_auto_build-indep:
 
 override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
+
+	# Remove empty directories
+	rmdir $(CURDIR)/debian/tmp/usr/share/doc/qbs/html/images/used-in-examples/
+	rmdir $(CURDIR)/debian/tmp/usr/share/doc/qbs/html/scripts/
 
 override_dh_auto_install-arch:
 	dh_auto_install

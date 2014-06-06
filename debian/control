@@ -1,0 +1,72 @@
+Source: qbs
+Section: devel
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Dmitry Shachnev <mitya57@gmail.com>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Build-Depends: debhelper (>= 9), qtbase5-dev, qtscript5-dev
+Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools
+Standards-Version: 3.9.5
+Homepage: http://qt-project.org/wiki/QBS
+Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qbs.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qbs.git
+
+Package: qbs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Build Suite
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Build Suite, a cross-platform build tool.
+
+Package: qbs-dev
+Architecture: any
+Section: libdevel
+Depends: qbs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Build Suite development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains headers and development files for Qt Build Suite.
+
+Package: qbs-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: qbs (= ${binary:Version}), ${misc:Depends}
+Description: Qt Build Suite debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt Build Suite.
+
+Package: qbs-examples
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt Build Suite examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the example source projects for the Qt Build Suite.
+
+Package: qbs-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt Build Suite documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt Build Suite.
+
+Package: qbs-doc-html
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt Build Suite HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt Build Suite.

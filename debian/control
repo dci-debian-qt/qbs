@@ -20,10 +20,33 @@ Description: Qt Build Suite
  .
  This package contains Qt Build Suite, a cross-platform build tool.
 
+Package: libqbscore1
+Architecture: any
+Section: libs
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Build Suite core library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Build Suite core shared library.
+
+Package: libqbsqtprofilesetup1
+Architecture: any
+Section: libs
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Build Suite profile setup library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Build Suite profile setup shared library.
+
 Package: qbs-dev
 Architecture: any
 Section: libdevel
-Depends: qbs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: libqbscore1 (= ${binary:Version}),
+         libqbsqtprofilesetup1 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Qt Build Suite development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

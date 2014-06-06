@@ -4,8 +4,6 @@ usr/bin/qbs-config-ui
 usr/bin/qbs-qmltypes
 usr/bin/qbs-setup-qt
 usr/bin/qbs-setup-toolchains
-usr/lib/*/libqbscore.so
-usr/lib/*/libqbsqtprofilesetup.so
 usr/lib/*/qbs/plugins/libqbs_cpp_scanner.so
 usr/lib/*/qbs/plugins/libqbs_qt_scanner.so
 usr/share/qbs/imports/qbs/FileInfo/fileinfo.js

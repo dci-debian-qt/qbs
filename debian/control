@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Dmitry Shachnev <mitya57@gmail.com>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-Build-Depends: debhelper (>= 9), qtbase5-dev, qtscript5-dev
+Build-Depends: debhelper (>= 9), pkg-kde-tools, qtbase5-dev, qtscript5-dev
 Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools
 Standards-Version: 3.9.5
 Homepage: http://qt-project.org/wiki/QBS

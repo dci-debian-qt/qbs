@@ -445,11 +445,6 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZNK3qbs9GroupData8locationEv@Base 1.2.1
  _ZNK3qbs9GroupData9filePathsEv@Base 1.2.1
  _ZNK3qbs9GroupData9isEnabledEv@Base 1.2.1
- _ZSt4swapIN3qbs11ProductDataEEvRT_S3_@Base 1.2.1
- _ZSt4swapIN3qbs11ProjectDataEEvRT_S3_@Base 1.2.1
- _ZSt4swapIN3qbs14TargetArtifactEEvRT_S3_@Base 1.2.1
- _ZSt4swapIN3qbs15InstallableFileEEvRT_S3_@Base 1.2.1
- _ZSt4swapIN3qbs9GroupDataEEvRT_S3_@Base 1.2.1
  _ZTI11QScriptable@Base 1.2.1
  _ZTIN3qbs10InstallJobE@Base 1.2.1
  _ZTIN3qbs11AbstractJobE@Base 1.2.1

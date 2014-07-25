@@ -1,4 +1,5 @@
 usr/include/qbs/api/jobs.h
+usr/include/qbs/api/languageinfo.h
 usr/include/qbs/api/project.h
 usr/include/qbs/api/projectdata.h
 usr/include/qbs/api/runenvironment.h

@@ -4,19 +4,21 @@
 #export DH_VERBOSE=1
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+CONFIG_DIR = $(CURDIR)/debian/config
 
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
+export XDG_CONFIG_HOME := $(CONFIG_DIR)
 
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qbs-dbg
 
 override_dh_auto_clean:
 	dh_auto_clean
-	rm -rfv doc/html doc/qbs.qch
-	rm -fv bin/qbs* bin/tst*
+	rm -rfv doc/html $(CONFIG_DIR)
+	rm -fv doc/qbs.qch bin/qbs* bin/tst*
 
 override_dh_auto_configure:
 	qmake qbs.pro \
@@ -49,7 +51,10 @@ override_dh_auto_install-arch:
 	chmod -x $(CURDIR)/debian/tmp/usr/share/qbs/imports/qbs/base/NSISSetup.qbs
 
 override_dh_auto_test:
-	-dh_auto_test
+	mkdir -p $(CONFIG_DIR)/QtProject
+	$(CURDIR)/bin/qbs-setup-toolchains --detect --settings-dir $(CONFIG_DIR)/QtProject
+	$(CURDIR)/bin/qbs-setup-qt /usr/bin/qmake qbs_autotests
+	dh_auto_test
 
 override_dh_install:
 	dh_install --fail-missing

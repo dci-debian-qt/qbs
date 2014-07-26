@@ -7,6 +7,10 @@ Files: *
 Copyright: 2014, Digia Plc and/or its subsidiary(-ies)
 License: LGPL-2.1 with Digia Qt LGPL Exception 1.1
 
+Files: src/lib/corelib/jsextensions/domxml.*
+Copyright: 2014, BogDan Vatra <bogdan@kde.org>
+License: LGPL-2.1 with Digia Qt LGPL Exception 1.1
+
 Files: src/plugins/scanner/cpp/*
 Copyright: 2014, Digia Plc and/or its subsidiary(-ies)
            2008, Roberto Raggi <roberto.raggi@gmail.com>

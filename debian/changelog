@@ -1,5 +1,5 @@
-qbs (1.2.2+dfsg-1) UNRELEASED; urgency=medium
+qbs (1.2.2+dfsg-1) unstable; urgency=medium
 
   * Initial release (closes: #745095).
 
- -- Dmitry Shachnev <mitya57@gmail.com>  Fri, 25 Jul 2014 15:45:23 +0400
+ -- Dmitry Shachnev <mitya57@gmail.com>  Sat, 26 Jul 2014 23:28:44 +0400

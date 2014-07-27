@@ -1,5 +1,7 @@
 qbs (1.2.2+dfsg-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Fix build failure when multiple compilers are installed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 Jul 2014 18:14:27 +0400
 

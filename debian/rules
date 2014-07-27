@@ -53,6 +53,8 @@ override_dh_auto_install-arch:
 override_dh_auto_test:
 	mkdir -p $(CONFIG_DIR)/QtProject
 	$(CURDIR)/bin/qbs-setup-toolchains --detect --settings-dir $(CONFIG_DIR)/QtProject
+	grep defaultProfile $(CONFIG_DIR)/QtProject/qbs.conf || \
+		echo "qt-project\\qbs\\defaultProfile=gcc" >> $(CONFIG_DIR)/QtProject/qbs.conf
 	$(CURDIR)/bin/qbs-setup-qt /usr/bin/qmake qbs_autotests
 	dh_auto_test
 

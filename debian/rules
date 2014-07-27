@@ -17,7 +17,7 @@ export XDG_CONFIG_HOME := $(CONFIG_DIR)
 
 override_dh_auto_clean:
 	dh_auto_clean
-	rm -rfv doc/html $(CONFIG_DIR)
+	rm -rfv doc/html $(CONFIG_DIR) tests/auto/*/testWorkDir
 	rm -fv doc/qbs.qch bin/qbs* bin/tst*
 
 override_dh_auto_configure:

@@ -27,7 +27,7 @@ Copyright: 2014, Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2014, Dmitry Shachnev <mitya57@gmail.com>
+Copyright: 2014, Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-2.1
 
 License: LGPL-2.1 with Digia Qt LGPL Exception 1.1

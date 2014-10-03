@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.2.1 i386
+# SymbolsHelper-Confirmed: 1.3.1 i386
 libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs10InstallJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs10InstallJob11qt_metacastEPKc@Base 1.2.1
@@ -9,12 +9,13 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs10InstallJobD0Ev@Base 1.2.1
  _ZN3qbs10InstallJobD1Ev@Base 1.2.1
  _ZN3qbs10InstallJobD2Ev@Base 1.2.1
+ _ZN3qbs11AbstractJob11lockProjectERK14QSharedPointerINS_8Internal15TopLevelProjectEE@Base 1.3.1
  _ZN3qbs11AbstractJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs11AbstractJob11qt_metacastEPKc@Base 1.2.1
  _ZN3qbs11AbstractJob11taskStartedERK7QStringiPS0_@Base 1.2.1
  _ZN3qbs11AbstractJob12taskProgressEiPS0_@Base 1.2.1
+ _ZN3qbs11AbstractJob13unlockProjectEv@Base 1.3.1
  _ZN3qbs11AbstractJob14handleFinishedEv@Base 1.2.1
- _ZN3qbs11AbstractJob14lockBuildGraphERK14QSharedPointerINS_8Internal15TopLevelProjectEE@Base 1.2.1
  _ZN3qbs11AbstractJob16staticMetaObjectE@Base 1.2.1
  _ZN3qbs11AbstractJob17handleTaskStartedERK7QStringi@Base 1.2.1
  _ZN3qbs11AbstractJob18handleTaskProgressEi@Base 1.2.1
@@ -51,6 +52,10 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs11PropertyMapD2Ev@Base 1.2.1
  _ZN3qbs11PropertyMapaSERKS0_@Base 1.2.1
  _ZN3qbs11logLevelTagENS_11LoggerLevelE@Base 1.2.1
+ _ZN3qbs11toJSLiteralERK11QStringList@Base 1.3.1
+ _ZN3qbs11toJSLiteralERK7QString@Base 1.3.1
+ _ZN3qbs11toJSLiteralERK8QVariant@Base 1.3.1
+ _ZN3qbs11toJSLiteralEb@Base 1.3.1
  _ZN3qbs12BuildOptions12setKeepGoingEb@Base 1.2.1
  _ZN3qbs12BuildOptions14setMaxJobCountEi@Base 1.2.1
  _ZN3qbs12BuildOptions15setChangedFilesERK11QStringList@Base 1.2.1
@@ -114,8 +119,8 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs14InstallOptionsaSERKS0_@Base 1.2.1
  _ZN3qbs14RunEnvironment8runShellEv@Base 1.2.1
  _ZN3qbs14RunEnvironment9runTargetERK7QStringRK11QStringList@Base 1.2.1
- _ZN3qbs14RunEnvironmentC1ERK14QSharedPointerINS_8Internal15ResolvedProductEERK19QProcessEnvironmentPNS_8SettingsERKNS2_6LoggerE@Base 1.2.1
- _ZN3qbs14RunEnvironmentC2ERK14QSharedPointerINS_8Internal15ResolvedProductEERK19QProcessEnvironmentPNS_8SettingsERKNS2_6LoggerE@Base 1.2.1
+ _ZN3qbs14RunEnvironmentC1ERK14QSharedPointerINS_8Internal15ResolvedProductEERKNS_14InstallOptionsERK19QProcessEnvironmentPNS_8SettingsERKNS2_6LoggerE@Base 1.3.1
+ _ZN3qbs14RunEnvironmentC2ERK14QSharedPointerINS_8Internal15ResolvedProductEERKNS_14InstallOptionsERK19QProcessEnvironmentPNS_8SettingsERKNS2_6LoggerE@Base 1.3.1
  _ZN3qbs14RunEnvironmentD1Ev@Base 1.2.1
  _ZN3qbs14RunEnvironmentD2Ev@Base 1.2.1
  _ZN3qbs14TargetArtifactC1ERKS0_@Base 1.2.1
@@ -136,7 +141,8 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs15SetupProjectJob11qt_metacastEPKc@Base 1.2.1
  _ZN3qbs15SetupProjectJob11reportErrorERKNS_9ErrorInfoE@Base 1.2.1
  _ZN3qbs15SetupProjectJob16staticMetaObjectE@Base 1.2.1
- _ZN3qbs15SetupProjectJob7resolveERKNS_22SetupProjectParametersE@Base 1.2.1
+ _ZN3qbs15SetupProjectJob6finishEv@Base 1.3.1
+ _ZN3qbs15SetupProjectJob7resolveERKNS_7ProjectERKNS_22SetupProjectParametersE@Base 1.3.1
  _ZN3qbs15SetupProjectJobC1ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs15SetupProjectJobC2ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs15SetupProjectJobD0Ev@Base 1.2.1
@@ -146,12 +152,16 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs22SetupProjectParameters14setEnvironmentERK19QProcessEnvironment@Base 1.2.1
  _ZN3qbs22SetupProjectParameters14setPluginPathsERK11QStringList@Base 1.2.1
  _ZN3qbs22SetupProjectParameters14setSearchPathsERK11QStringList@Base 1.2.1
+ _ZN3qbs22SetupProjectParameters15setBuildVariantERK7QString@Base 1.3.1
  _ZN3qbs22SetupProjectParameters17setLogElapsedTimeEb@Base 1.2.1
  _ZN3qbs22SetupProjectParameters18setProjectFilePathERK7QString@Base 1.2.1
  _ZN3qbs22SetupProjectParameters18setRestoreBehaviorENS0_15RestoreBehaviorE@Base 1.2.1
+ _ZN3qbs22SetupProjectParameters18setTopLevelProfileERK7QString@Base 1.3.1
  _ZN3qbs22SetupProjectParameters19setOverriddenValuesERK4QMapI7QString8QVariantE@Base 1.2.1
- _ZN3qbs22SetupProjectParameters21setBuildConfigurationERK4QMapI7QString8QVariantE@Base 1.2.1
- _ZN3qbs22SetupProjectParameters24expandBuildConfigurationEPNS_8SettingsE@Base 1.2.1
+ _ZN3qbs22SetupProjectParameters20setSettingsDirectoryERK7QString@Base 1.3.1
+ _ZN3qbs22SetupProjectParameters24expandBuildConfigurationEv@Base 1.3.1
+ _ZN3qbs22SetupProjectParameters26expandedBuildConfigurationERK7QStringS3_S3_PNS_9ErrorInfoE@Base 1.3.1
+ _ZN3qbs22SetupProjectParameters27finalBuildConfigurationTreeERK4QMapI7QString8QVariantES6_@Base 1.3.1
  _ZN3qbs22SetupProjectParameters33setIgnoreDifferentProjectFilePathEb@Base 1.2.1
  _ZN3qbs22SetupProjectParameters9setDryRunEb@Base 1.2.1
  _ZN3qbs22SetupProjectParametersC1ERKS0_@Base 1.2.1
@@ -170,12 +180,8 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs7Profile9cleanNameERK7QString@Base 1.2.1
  _ZN3qbs7ProfileC1ERK7QStringPNS_8SettingsE@Base 1.2.1
  _ZN3qbs7ProfileC2ERK7QStringPNS_8SettingsE@Base 1.2.1
- _ZN3qbs7Project11removeFilesERKNS_11ProductDataERKNS_9GroupDataERK11QStringList@Base 1.2.1
- _ZN3qbs7Project11removeGroupERKNS_11ProductDataERKNS_9GroupDataE@Base 1.2.1
  _ZN3qbs7Project12setupProjectERKNS_22SetupProjectParametersEPNS_8ILogSinkEP7QObject@Base 1.2.1
  _ZN3qbs7Project16updateTimestampsERK5QListINS_11ProductDataEE@Base 1.2.1
- _ZN3qbs7Project8addFilesERKNS_11ProductDataERKNS_9GroupDataERK11QStringList@Base 1.2.1
- _ZN3qbs7Project8addGroupERKNS_11ProductDataERK7QString@Base 1.2.1
  _ZN3qbs7ProjectC1ERK14QSharedPointerINS_8Internal15TopLevelProjectEERKNS2_6LoggerE@Base 1.2.1
  _ZN3qbs7ProjectC1ERKS0_@Base 1.2.1
  _ZN3qbs7ProjectC1Ev@Base 1.2.1
@@ -214,12 +220,20 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8ILogSinkD0Ev@Base 1.2.1
  _ZN3qbs8ILogSinkD1Ev@Base 1.2.1
  _ZN3qbs8ILogSinkD2Ev@Base 1.2.1
+ _ZN3qbs8Internal13shellQuoteWinERK7QString@Base 1.3.1
+ _ZN3qbs8Internal14shellQuoteUnixERK7QString@Base 1.3.1
  _ZN3qbs8Internal17copyFileRecursionERK7QStringS3_bPS1_@Base 1.2.1
  _ZN3qbs8Internal19throwAssertLocationEPKcS2_i@Base 1.2.1
  _ZN3qbs8Internal19writeAssertLocationEPKcS2_i@Base 1.2.1
  _ZN3qbs8Internal27removeDirectoryWithContentsERK7QStringPS1_@Base 1.2.1
  _ZN3qbs8Internal6LoggerC1EPNS_8ILogSinkE@Base 1.2.1
  _ZN3qbs8Internal6LoggerC2EPNS_8ILogSinkE@Base 1.2.1
+ _ZN3qbs8Internal7Version13setPatchLevelEi@Base 1.3.1
+ _ZN3qbs8Internal7Version14setBuildNumberEi@Base 1.3.1
+ _ZN3qbs8Internal7Version15setMajorVersionEi@Base 1.3.1
+ _ZN3qbs8Internal7Version15setMinorVersionEi@Base 1.3.1
+ _ZN3qbs8Internal7VersionC1Eiiii@Base 1.3.1
+ _ZN3qbs8Internal7VersionC2Eiiii@Base 1.3.1
  _ZN3qbs8Internal9LogWriter13setMessageTagERK7QString@Base 1.2.1
  _ZN3qbs8Internal9LogWriter5writeEPKc@Base 1.2.1
  _ZN3qbs8Internal9LogWriter5writeERK5QChar@Base 1.2.1
@@ -242,8 +256,8 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8InternallsENS0_9LogWriterEb@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterEi@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterEx@Base 1.2.1
- _ZN3qbs8Settings11checkStatusEv@Base 1.2.1
  _ZN3qbs8Settings14directChildrenERK7QString@Base 1.2.1
+ _ZN3qbs8Settings4syncEv@Base 1.3.1
  _ZN3qbs8Settings5clearEv@Base 1.2.1
  _ZN3qbs8Settings6removeERK7QString@Base 1.2.1
  _ZN3qbs8Settings8setValueERK7QStringRK8QVariant@Base 1.2.1
@@ -307,10 +321,16 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZNK3qbs11Preferences4jobsEv@Base 1.2.1
  _ZNK3qbs11Preferences5shellEv@Base 1.2.1
  _ZNK3qbs11Preferences8pathListERK7QStringS3_@Base 1.2.1
+ _ZNK3qbs11ProductData10isRunnableEv@Base 1.3.1
+ _ZNK3qbs11ProductData10targetNameEv@Base 1.3.1
+ _ZNK3qbs11ProductData12dependenciesEv@Base 1.3.1
  _ZNK3qbs11ProductData15targetArtifactsEv@Base 1.2.1
  _ZNK3qbs11ProductData4nameEv@Base 1.2.1
+ _ZNK3qbs11ProductData4typeEv@Base 1.3.1
  _ZNK3qbs11ProductData6groupsEv@Base 1.2.1
  _ZNK3qbs11ProductData7isValidEv@Base 1.2.1
+ _ZNK3qbs11ProductData7profileEv@Base 1.3.1
+ _ZNK3qbs11ProductData7versionEv@Base 1.3.1
  _ZNK3qbs11ProductData8locationEv@Base 1.2.1
  _ZNK3qbs11ProductData9isEnabledEv@Base 1.2.1
  _ZNK3qbs11ProjectData11allProductsEv@Base 1.2.1
@@ -358,6 +378,8 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZNK3qbs14InstallOptions26removeExistingInstallationEv@Base 1.2.1
  _ZNK3qbs14InstallOptions6dryRunEv@Base 1.2.1
  _ZNK3qbs14InstallOptions9keepGoingEv@Base 1.2.1
+ _ZNK3qbs14RunEnvironment14runEnvironmentEv@Base 1.3.1
+ _ZNK3qbs14RunEnvironment16buildEnvironmentEv@Base 1.3.1
  _ZNK3qbs14TargetArtifact10propertiesEv@Base 1.2.1
  _ZNK3qbs14TargetArtifact12isExecutableEv@Base 1.2.1
  _ZNK3qbs14TargetArtifact7isValidEv@Base 1.2.1
@@ -374,11 +396,15 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZNK3qbs22SetupProjectParameters11environmentEv@Base 1.2.1
  _ZNK3qbs22SetupProjectParameters11pluginPathsEv@Base 1.2.1
  _ZNK3qbs22SetupProjectParameters11searchPathsEv@Base 1.2.1
+ _ZNK3qbs22SetupProjectParameters12buildVariantEv@Base 1.3.1
  _ZNK3qbs22SetupProjectParameters14logElapsedTimeEv@Base 1.2.1
  _ZNK3qbs22SetupProjectParameters15projectFilePathEv@Base 1.2.1
  _ZNK3qbs22SetupProjectParameters15restoreBehaviorEv@Base 1.2.1
+ _ZNK3qbs22SetupProjectParameters15topLevelProfileEv@Base 1.3.1
  _ZNK3qbs22SetupProjectParameters16overriddenValuesEv@Base 1.2.1
+ _ZNK3qbs22SetupProjectParameters17settingsDirectoryEv@Base 1.3.1
  _ZNK3qbs22SetupProjectParameters18buildConfigurationEv@Base 1.2.1
+ _ZNK3qbs22SetupProjectParameters19adjustedEnvironmentEv@Base 1.3.1
  _ZNK3qbs22SetupProjectParameters20overriddenValuesTreeEv@Base 1.2.1
  _ZNK3qbs22SetupProjectParameters22buildConfigurationTreeEv@Base 1.2.1
  _ZNK3qbs22SetupProjectParameters27finalBuildConfigurationTreeEv@Base 1.2.1
@@ -408,7 +434,7 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZNK3qbs7Project16targetExecutableERKNS_11ProductDataERKNS_14InstallOptionsE@Base 1.2.1
  _ZNK3qbs7Project17buildSomeProductsERK5QListINS_11ProductDataEERKNS_12BuildOptionsEP7QObject@Base 1.2.1
  _ZNK3qbs7Project17cleanSomeProductsERK5QListINS_11ProductDataEERKNS_12CleanOptionsEP7QObject@Base 1.2.1
- _ZNK3qbs7Project17getRunEnvironmentERKNS_11ProductDataERK19QProcessEnvironmentPNS_8SettingsE@Base 1.2.1
+ _ZNK3qbs7Project17getRunEnvironmentERKNS_11ProductDataERKNS_14InstallOptionsERK19QProcessEnvironmentPNS_8SettingsE@Base 1.3.1
  _ZNK3qbs7Project17installOneProductERKNS_11ProductDataERKNS_14InstallOptionsEP7QObject@Base 1.2.1
  _ZNK3qbs7Project18installAllProductsERKNS_14InstallOptionsEP7QObject@Base 1.2.1
  _ZNK3qbs7Project19installSomeProductsERK5QListINS_11ProductDataEERKNS_14InstallOptionsEP7QObject@Base 1.2.1
@@ -416,12 +442,18 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZNK3qbs7Project26installableFilesForProductERKNS_11ProductDataERKNS_14InstallOptionsE@Base 1.2.1
  _ZNK3qbs7Project26installableFilesForProjectERKNS_11ProjectDataERKNS_14InstallOptionsE@Base 1.2.1
  _ZNK3qbs7Project7isValidEv@Base 1.2.1
+ _ZNK3qbs7Project7profileEv@Base 1.3.1
  _ZNK3qbs8BuildJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs8CleanJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs8ILogSink8logLevelEv@Base 1.2.1
  _ZNK3qbs8Internal6Logger12debugEnabledEv@Base 1.2.1
  _ZNK3qbs8Internal6Logger12traceEnabledEv@Base 1.2.1
  _ZNK3qbs8Internal6Logger6qbsLogENS_11LoggerLevelEb@Base 1.2.1
+ _ZNK3qbs8Internal7Version10patchLevelEv@Base 1.3.1
+ _ZNK3qbs8Internal7Version11buildNumberEv@Base 1.3.1
+ _ZNK3qbs8Internal7Version12majorVersionEv@Base 1.3.1
+ _ZNK3qbs8Internal7Version12minorVersionEv@Base 1.3.1
+ _ZNK3qbs8Internal7Version8toStringEv@Base 1.3.1
  _ZNK3qbs8Settings14defaultProfileEv@Base 1.2.1
  _ZNK3qbs8Settings17allKeysWithPrefixERK7QString@Base 1.2.1
  _ZNK3qbs8Settings22externalRepresentationERK7QString@Base 1.2.1

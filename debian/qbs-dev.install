@@ -8,6 +8,7 @@ usr/include/qbs/language/forward_decls.h
 usr/include/qbs/logging/ilogsink.h
 usr/include/qbs/qbs.h
 usr/include/qbs/qbs_version.pri
+usr/include/qbs/qtenvironment.h
 usr/include/qbs/qtprofilesetup.h
 usr/include/qbs/tools/buildoptions.h
 usr/include/qbs/tools/cleanoptions.h

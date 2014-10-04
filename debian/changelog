@@ -5,6 +5,7 @@ qbs (1.3.1+dfsg-1) UNRELEASED; urgency=medium
     + Update .install files.
     + Update libqbscore1.symbols. There are missing symbols, but
       we ignore that as the package has never been in testing.
+  * Break/Replace qtcreator (<< 3.2.1+dfsg-4~) (closes: #763365).
   * Fix build failure when multiple compilers are installed.
   * Properly clean up after tests.
   * Update my e-mail address.

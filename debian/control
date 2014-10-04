@@ -18,6 +18,8 @@ Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qbs.git
 Package: qbs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qtcreator (<< 3.2.1+dfsg-4~)
+Replaces: qtcreator (<< 3.2.1+dfsg-4~)
 Description: Qt Build Suite
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

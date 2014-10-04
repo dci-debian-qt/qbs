@@ -1,6 +1,5 @@
-qbs (1.3.1+dfsg-1) UNRELEASED; urgency=medium
+qbs (1.3.1+dfsg-1) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
     + Update .install files.
     + Update libqbscore1.symbols. There are missing symbols, but
@@ -14,7 +13,7 @@ qbs (1.3.1+dfsg-1) UNRELEASED; urgency=medium
   * debian/copyright: Use correct exception syntax.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 Jul 2014 18:14:27 +0400
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 04 Oct 2014 10:21:08 +0400
 
 qbs (1.2.2+dfsg-1) unstable; urgency=medium
 

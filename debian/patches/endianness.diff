@@ -1,6 +1,6 @@
 Description: detect endianness of all Debian supported archs
 Author: Dmitry Shachnev <mitya57@debian.org>
-Forwarded: not yet
+Forwarded: not-yet
 Last-Update: 2014-10-06
 
 --- a/src/lib/corelib/tools/hostosinfo.h

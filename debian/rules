@@ -54,11 +54,14 @@ override_dh_auto_install-arch:
 
 override_dh_auto_test:
 	mkdir -p $(CONFIG_DIR)/QtProject
-	$(CURDIR)/bin/qbs-setup-toolchains --detect --settings-dir $(CONFIG_DIR)/QtProject
-	$(CURDIR)/bin/qbs-setup-qt /usr/bin/qmake qbs_autotests
-	grep baseProfile $(CONFIG_DIR)/QtProject/qbs.conf || \
-		/bin/echo "qt-project\qbs\profiles\qbs_autotests\baseProfile=gcc" >> $(CONFIG_DIR)/QtProject/qbs.conf
-	dh_auto_test
+	set -ex; \
+		export LD_LIBRARY_PATH=$(CURDIR)/lib/:$$LD_LIBRARY_PATH; \
+		$(CURDIR)/bin/qbs-setup-toolchains --detect --settings-dir $(CONFIG_DIR)/QtProject; \
+		$(CURDIR)/bin/qbs-setup-qt /usr/bin/qmake qbs_autotests; \
+		grep baseProfile $(CONFIG_DIR)/QtProject/qbs.conf || \
+			/bin/echo "qt-project\qbs\profiles\qbs_autotests\baseProfile=gcc" \
+			>> $(CONFIG_DIR)/QtProject/qbs.conf; \
+		dh_auto_test
 
 override_dh_install:
 	dh_install --fail-missing

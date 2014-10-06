@@ -1,13 +1,9 @@
 Description: move hostosinfo.h to public API, qtcreator needs it
- This is done in tools.pri. If qbs is at some point built usin qbs
+ This is done in tools.pri. If qbs is at some point built using qbs
  itself the previous version of this patch should be used.
-Author: Dmitry Shachnev <mitya57@debian.org>
+Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Forwarded: not-yet
 Last-Update: 2014-10-06
-
----
- src/lib/corelib/tools/tools.pri |    1 +
- 1 file changed, 1 insertion(+)
 
 --- a/src/lib/corelib/tools/tools.pri
 +++ b/src/lib/corelib/tools/tools.pri

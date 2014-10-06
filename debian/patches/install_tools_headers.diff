@@ -1,23 +1,21 @@
 Description: move hostosinfo.h to public API, qtcreator needs it
+ This is done in tools.pri. If qbs is at some point built usin qbs
+ itself the previous version of this patch should be used.
 Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: not-yet
 Last-Update: 2014-10-06
 
---- a/src/lib/corelib/corelib.qbs
-+++ b/src/lib/corelib/corelib.qbs
-@@ -296,7 +296,6 @@
-             "fileinfo.cpp",
-             "fileinfo.h",
-             "filetime.h",
--            "hostosinfo.h",
-             "id.cpp",
-             "id.h",
-             "installoptions.cpp",
-@@ -336,6 +335,7 @@
-             "cleanoptions.h",
-             "codelocation.h",
-             "error.h",
-+            "hostosinfo.h",
-             "installoptions.h",
-             "preferences.h",
-             "processresult.h",
+---
+ src/lib/corelib/tools/tools.pri |    1 +
+ 1 file changed, 1 insertion(+)
+
+--- a/src/lib/corelib/tools/tools.pri
++++ b/src/lib/corelib/tools/tools.pri
+@@ -72,6 +72,7 @@ all_tests {
+         $$PWD/cleanoptions.h \
+         $$PWD/codelocation.h \
+         $$PWD/error.h \
++        $$PWD/hostosinfo.h \
+         $$PWD/settings.h \
+         $$PWD/preferences.h \
+         $$PWD/profile.h \

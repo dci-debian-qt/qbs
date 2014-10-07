@@ -1,0 +1,10 @@
+--- a/tests/auto/blackbox/tst_blackbox.cpp
++++ b/tests/auto/blackbox/tst_blackbox.cpp
+@@ -423,6 +423,7 @@
+ void TestBlackbox::dependenciesProperty()
+ {
+     QDir::setCurrent(testDataDir + QLatin1String("/dependenciesProperty"));
++    rmDirR(buildDir);
+     QCOMPARE(runQbs(), 0);
+     QFile depsFile(productBuildDir("product1") + QLatin1String("/product1.deps"));
+     QVERIFY(depsFile.open(QFile::ReadOnly));

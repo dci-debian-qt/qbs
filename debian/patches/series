@@ -1,2 +1,2 @@
 endianness.diff
-remove_builddir.diff
+skip_test.diff

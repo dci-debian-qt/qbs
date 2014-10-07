@@ -14,7 +14,6 @@ usr/include/qbs/tools/buildoptions.h
 usr/include/qbs/tools/cleanoptions.h
 usr/include/qbs/tools/codelocation.h
 usr/include/qbs/tools/error.h
-usr/include/qbs/tools/hostosinfo.h
 usr/include/qbs/tools/installoptions.h
 usr/include/qbs/tools/preferences.h
 usr/include/qbs/tools/processresult.h

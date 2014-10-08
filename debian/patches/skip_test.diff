@@ -1,5 +1,6 @@
 Description: skip failing TestBlackbox::dependenciesProperty() test
 Author: Dmitry Shachnev <mitya57@debian.org>
+Bug: https://bugreports.qt-project.org/browse/QBS-695
 Forwarded: not-needed
 Last-Update: 2014-10-07
 

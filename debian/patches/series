@@ -1,2 +1,3 @@
 endianness.diff
 skip_test.diff
+no_gnu_hash.diff

@@ -1,7 +1,5 @@
 Description: do not hardcode hash style
-Author: Dmitry Shachnev <mitya57@debian.org>
-Bug: https://bugreports.qt-project.org/browse/QBS-696
-Forwarded: not-needed
+Origin: upstream, https://qt.gitorious.org/qt-labs/qbs/commit/14dd7b7e99705196
 Last-Update: 2014-10-08
 
 --- a/share/qbs/modules/cpp/GenericGCC.qbs

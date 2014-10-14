@@ -1,11 +1,21 @@
 Description: detect endianness of all Debian supported archs
 Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: not-yet
-Last-Update: 2014-10-06
+Last-Update: 2014-10-14
 
 --- a/src/lib/corelib/tools/hostosinfo.h
 +++ b/src/lib/corelib/tools/hostosinfo.h
-@@ -165,6 +165,9 @@
+@@ -155,6 +155,9 @@
+         << QLatin1String("intel64")
+         << QLatin1String("mingw64"));
+ 
++    archMap.insert(QLatin1String("arm64"), QStringList()
++        << QLatin1String("aarch64"));
++
+     archMap.insert(QLatin1String("ia64"), QStringList()
+         << QLatin1String("ia-64")
+         << QLatin1String("itanium"));
+@@ -165,6 +168,9 @@
      archMap.insert(QLatin1String("ppc64"), QStringList()
          << QLatin1String("powerpc64"));
  
@@ -15,7 +25,7 @@ Last-Update: 2014-10-06
      QMapIterator<QString, QStringList> i(archMap);
      while (i.hasNext()) {
          i.next();
-@@ -183,14 +186,19 @@
+@@ -183,14 +189,19 @@
              << QLatin1String("x86")
              << QLatin1String("x86_64")
              << QLatin1String("arm")

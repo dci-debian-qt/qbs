@@ -2,6 +2,7 @@ qbs (1.3.1+dfsg-4) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Add upstream patch to not hardcode the linker hash style.
+  * Add arm64 support.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Oct 2014 21:37:12 +0400
 

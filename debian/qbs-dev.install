@@ -10,6 +10,7 @@ usr/include/qbs/qbs.h
 usr/include/qbs/qbs_version.pri
 usr/include/qbs/qtenvironment.h
 usr/include/qbs/qtprofilesetup.h
+usr/include/qbs/tools/architectures.h
 usr/include/qbs/tools/buildoptions.h
 usr/include/qbs/tools/cleanoptions.h
 usr/include/qbs/tools/codelocation.h

@@ -1,7 +1,7 @@
 Description: detect endianness of all Debian supported archs
 Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: not-yet
-Last-Update: 2014-10-14
+Last-Update: 2014-10-20
 
 --- a/src/lib/corelib/tools/hostosinfo.h
 +++ b/src/lib/corelib/tools/hostosinfo.h
@@ -25,9 +25,11 @@ Last-Update: 2014-10-14
      QMapIterator<QString, QStringList> i(archMap);
      while (i.hasNext()) {
          i.next();
-@@ -183,14 +189,19 @@
+@@ -182,15 +188,23 @@
+     QStringList little = QStringList()
              << QLatin1String("x86")
              << QLatin1String("x86_64")
++            << QLatin1String("alpha")
              << QLatin1String("arm")
 -            << QLatin1String("arm64");
 +            << QLatin1String("arm64")
@@ -38,12 +40,14 @@ Last-Update: 2014-10-14
          return QLatin1String("little");
  
      QStringList big = QStringList()
++            << QLatin1String("hppa")
 +            << QLatin1String("mips")
              << QLatin1String("ppc")
 -            << QLatin1String("ppc64");
 +            << QLatin1String("ppc64")
 +            << QLatin1String("s390x")
-+            << QLatin1String("sparc");
++            << QLatin1String("sparc")
++            << QLatin1String("sparc64");
  
      if (big.contains(canonicalArch))
          return QLatin1String("big");

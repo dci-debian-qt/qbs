@@ -6,6 +6,7 @@ qbs (1.3.3+dfsg-1) UNRELEASED; urgency=medium
   * Drop skip_test.diff, no longer needed.
   * Add support for all MIPS flavors (closes: #767459).
   * Bump Breaks/Replaces on qtcreator, it is not fixed in Jessie.
+  * Update debian/libqbscore1.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Oct 2014 14:53:05 +0300
 

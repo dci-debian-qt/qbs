@@ -5,7 +5,7 @@ Last-Update: 2014-10-31
 
 --- a/src/lib/corelib/tools/architectures.cpp
 +++ b/src/lib/corelib/tools/architectures.cpp
-@@ -59,6 +59,9 @@
+@@ -61,6 +61,9 @@
          << QLatin1String("intel64")
          << QLatin1String("mingw64"));
  
@@ -15,7 +15,7 @@ Last-Update: 2014-10-31
      archMap.insert(QLatin1String("ia64"), QStringList()
          << QLatin1String("ia-64")
          << QLatin1String("itanium"));
-@@ -69,6 +72,9 @@
+@@ -71,6 +74,9 @@
      archMap.insert(QLatin1String("ppc64"), QStringList()
          << QLatin1String("powerpc64"));
  
@@ -25,7 +25,7 @@ Last-Update: 2014-10-31
      QMapIterator<QString, QStringList> i(archMap);
      while (i.hasNext()) {
          i.next();
-@@ -87,15 +93,27 @@
+@@ -89,15 +95,27 @@
      QStringList little = QStringList()
              << QLatin1String("x86")
              << QLatin1String("x86_64")

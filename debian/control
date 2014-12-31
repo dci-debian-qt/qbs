@@ -17,6 +17,7 @@ Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qbs.git
 
 Package: qbs
 Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtcreator (<< 3.2.1+dfsg-8~)
 Replaces: qtcreator (<< 3.2.1+dfsg-8~)
@@ -29,6 +30,7 @@ Description: Qt Build Suite
 Package: libqbscore1
 Architecture: any
 Section: libs
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt Build Suite core library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39,6 +41,7 @@ Description: Qt Build Suite core library
 Package: libqbsqtprofilesetup1
 Architecture: any
 Section: libs
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt Build Suite profile setup library
  Qt is a cross-platform C++ application framework. Qt's primary feature

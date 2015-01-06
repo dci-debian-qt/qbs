@@ -1,2 +1,3 @@
 endianness.diff
 skip_test.diff
+remove_rpaths.diff

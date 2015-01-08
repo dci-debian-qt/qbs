@@ -1,7 +1,10 @@
-Index: qbs/src/lib/corelib/use_installed_corelib.pri
-===================================================================
---- qbs.orig/src/lib/corelib/use_installed_corelib.pri	2014-12-01 05:15:45.000000000 -0600
-+++ qbs/src/lib/corelib/use_installed_corelib.pri	2015-01-06 14:07:10.766010382 -0600
+Description: do not pass wrong -L flag when linking with libqbscore
+Author: Adam Majer <adamm@zombino.com>
+Forwarded: not-needed
+Last-Update: 2015-01-08
+
+--- a/src/lib/corelib/use_installed_corelib.pri
++++ b/src/lib/corelib/use_installed_corelib.pri
 @@ -4,11 +4,9 @@
  
  QBSLIBDIR=$${PWD}/../../lib

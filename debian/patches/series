@@ -1,3 +1,4 @@
 endianness.diff
 skip_test.diff
 remove_rpaths.diff
+increase_timeout.diff

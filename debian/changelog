@@ -11,7 +11,7 @@ qbs (1.3.3+dfsg-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Add increase_timeout.diff from Dejan Latinovic to make tests pass
-    on mips.
+    on mips (closes: #774974).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 31 Dec 2014 16:52:15 +0100
 

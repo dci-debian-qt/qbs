@@ -54,9 +54,8 @@ override_dh_auto_test:
 		export LD_LIBRARY_PATH=$(CURDIR)/lib/:$$LD_LIBRARY_PATH; \
 		$(CURDIR)/bin/qbs-setup-toolchains --detect --settings-dir $(CONFIG_DIR)/QtProject; \
 		$(CURDIR)/bin/qbs-setup-qt /usr/bin/qmake qbs_autotests; \
-		grep baseProfile $(CONFIG_DIR)/QtProject/qbs.conf || \
-			/bin/echo "qt-project\qbs\profiles\qbs_autotests\baseProfile=gcc" \
-			>> $(CONFIG_DIR)/QtProject/qbs.conf; \
+		[ -n "`$(CURDIR)/bin/qbs-config --settings-dir $(CONFIG_DIR)/QtProject --list profiles.qbs_autotests.baseProfile`" ] || \
+			$(CURDIR)/bin/qbs-config --settings-dir $(CONFIG_DIR)/QtProject profiles.qbs_autotests.baseProfile gcc; \
 		dh_auto_test
 
 override_dh_install:

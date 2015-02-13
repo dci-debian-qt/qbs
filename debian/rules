@@ -48,10 +48,6 @@ override_dh_auto_install-arch:
 	mv $(CURDIR)/debian/tmp/usr/lib/*.so* $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/
 	mv $(CURDIR)/debian/tmp/usr/lib/qbs $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/
 
-	# Fix permissions
-	chmod -x $(CURDIR)/debian/tmp/usr/share/qbs/modules/nsis/NSISModule.qbs
-	chmod -x $(CURDIR)/debian/tmp/usr/share/qbs/imports/qbs/base/NSISSetup.qbs
-
 override_dh_auto_test:
 	mkdir -p $(CONFIG_DIR)/QtProject
 	set -ex; \

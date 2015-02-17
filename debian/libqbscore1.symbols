@@ -6,9 +6,9 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs10InstallJob7installERK14QSharedPointerINS_8Internal15TopLevelProjectEERK5QListIS1_INS2_15ResolvedProductEEERKNS_14InstallOptionsE@Base 1.2.1
  _ZN3qbs10InstallJobC1ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs10InstallJobC2ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
- _ZN3qbs10InstallJobD0Ev@Base 1.2.1
- _ZN3qbs10InstallJobD1Ev@Base 1.2.1
- _ZN3qbs10InstallJobD2Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs10InstallJobD0Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs10InstallJobD1Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs10InstallJobD2Ev@Base 1.2.1
  _ZN3qbs11AbstractJob11lockProjectERK14QSharedPointerINS_8Internal15TopLevelProjectEE@Base 1.3.1
  _ZN3qbs11AbstractJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs11AbstractJob11qt_metacastEPKc@Base 1.2.1
@@ -152,9 +152,9 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs15SetupProjectJob7resolveERKNS_7ProjectERKNS_22SetupProjectParametersE@Base 1.3.1
  _ZN3qbs15SetupProjectJobC1ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs15SetupProjectJobC2ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
- _ZN3qbs15SetupProjectJobD0Ev@Base 1.2.1
- _ZN3qbs15SetupProjectJobD1Ev@Base 1.2.1
- _ZN3qbs15SetupProjectJobD2Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs15SetupProjectJobD0Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs15SetupProjectJobD1Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs15SetupProjectJobD2Ev@Base 1.2.1
  _ZN3qbs17defaultEndiannessERK7QString@Base 1.3.2
  _ZN3qbs21canonicalArchitectureERK7QString@Base 1.3.2
  _ZN3qbs22SetupProjectParameters12setBuildRootERK7QString@Base 1.2.1
@@ -212,18 +212,18 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8BuildJob5buildERK14QSharedPointerINS_8Internal15TopLevelProjectEERK5QListIS1_INS2_15ResolvedProductEEERKNS_12BuildOptionsE@Base 1.2.1
  _ZN3qbs8BuildJobC1ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs8BuildJobC2ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
- _ZN3qbs8BuildJobD0Ev@Base 1.2.1
- _ZN3qbs8BuildJobD1Ev@Base 1.2.1
- _ZN3qbs8BuildJobD2Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs8BuildJobD0Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs8BuildJobD1Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs8BuildJobD2Ev@Base 1.2.1
  _ZN3qbs8CleanJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs8CleanJob11qt_metacastEPKc@Base 1.2.1
  _ZN3qbs8CleanJob16staticMetaObjectE@Base 1.2.1
  _ZN3qbs8CleanJob5cleanERK14QSharedPointerINS_8Internal15TopLevelProjectEERK5QListIS1_INS2_15ResolvedProductEEERKNS_12CleanOptionsE@Base 1.2.1
  _ZN3qbs8CleanJobC1ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs8CleanJobC2ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
- _ZN3qbs8CleanJobD0Ev@Base 1.2.1
- _ZN3qbs8CleanJobD1Ev@Base 1.2.1
- _ZN3qbs8CleanJobD2Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs8CleanJobD0Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs8CleanJobD1Ev@Base 1.2.1
+ (optional=gccinternal)_ZN3qbs8CleanJobD2Ev@Base 1.2.1
  _ZN3qbs8ILogSink11setLogLevelENS_11LoggerLevelE@Base 1.2.1
  _ZN3qbs8ILogSink12printMessageENS_11LoggerLevelERK7QStringS4_b@Base 1.2.1
  _ZN3qbs8ILogSink12printWarningERKNS_9ErrorInfoE@Base 1.2.1

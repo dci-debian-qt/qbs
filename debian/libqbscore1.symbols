@@ -155,7 +155,6 @@ libqbscore.so.1 libqbscore1 #MINVER#
  (optional=gccinternal)_ZN3qbs15SetupProjectJobD0Ev@Base 1.2.1
  (optional=gccinternal)_ZN3qbs15SetupProjectJobD1Ev@Base 1.2.1
  (optional=gccinternal)_ZN3qbs15SetupProjectJobD2Ev@Base 1.2.1
- _ZN3qbs17defaultEndiannessERK7QString@Base 1.3.2
  _ZN3qbs21canonicalArchitectureERK7QString@Base 1.3.2
  _ZN3qbs22SetupProjectParameters12setBuildRootERK7QString@Base 1.2.1
  _ZN3qbs22SetupProjectParameters14setEnvironmentERK19QProcessEnvironment@Base 1.2.1

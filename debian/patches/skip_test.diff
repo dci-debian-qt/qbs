@@ -6,7 +6,7 @@ Last-Update: 2014-10-07
 
 --- a/tests/auto/blackbox/tst_blackbox.cpp
 +++ b/tests/auto/blackbox/tst_blackbox.cpp
-@@ -444,6 +444,7 @@
+@@ -453,6 +453,7 @@
  
  void TestBlackbox::dependenciesProperty()
  {

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.3.1 i386
+# SymbolsHelper-Confirmed: 1.3.4 amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x
 libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs10InstallJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs10InstallJob11qt_metacastEPKc@Base 1.2.1
@@ -323,6 +323,7 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbsneERKNS_14TargetArtifactES2_@Base 1.2.1
  _ZN3qbsneERKNS_15InstallableFileES2_@Base 1.2.1
  _ZN3qbsneERKNS_9GroupDataES2_@Base 1.2.1
+ (optional=inline|arch=arm64 armel armhf mips mipsel powerpc ppc64el s390x)_ZN9QHashData9hasShrunkEv@Base 1.3.1
  _ZNK3qbs10InstallJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs11AbstractJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs11AbstractJob5errorEv@Base 1.2.1

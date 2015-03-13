@@ -4,13 +4,15 @@ Bug: https://bugreports.qt-project.org/browse/QBS-695
 Forwarded: not-needed
 Last-Update: 2014-10-07
 
---- a/tests/auto/blackbox/tst_blackbox.cpp
-+++ b/tests/auto/blackbox/tst_blackbox.cpp
-@@ -453,6 +453,7 @@
+Index: qbs/tests/auto/blackbox/tst_blackbox.cpp
+===================================================================
+--- qbs.orig/tests/auto/blackbox/tst_blackbox.cpp	2015-03-12 18:53:12.971300295 -0500
++++ qbs/tests/auto/blackbox/tst_blackbox.cpp	2015-03-12 18:53:12.967300295 -0500
+@@ -398,6 +398,7 @@
  
  void TestBlackbox::dependenciesProperty()
  {
 +    SKIP_TEST("does not pass on most architectures");
      QDir::setCurrent(testDataDir + QLatin1String("/dependenciesProperty"));
      QCOMPARE(runQbs(), 0);
-     QFile depsFile(productBuildDir("product1") + QLatin1String("/product1.deps"));
+     QFile depsFile(relativeProductBuildDir("product1") + QLatin1String("/product1.deps"));

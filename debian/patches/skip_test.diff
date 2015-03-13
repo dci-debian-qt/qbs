@@ -12,7 +12,7 @@ Index: qbs/tests/auto/blackbox/tst_blackbox.cpp
  
  void TestBlackbox::dependenciesProperty()
  {
-+    SKIP_TEST("does not pass on most architectures");
++    QSKIP("does not pass on most architectures");
      QDir::setCurrent(testDataDir + QLatin1String("/dependenciesProperty"));
      QCOMPARE(runQbs(), 0);
      QFile depsFile(relativeProductBuildDir("product1") + QLatin1String("/product1.deps"));

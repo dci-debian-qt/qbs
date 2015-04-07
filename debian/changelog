@@ -17,7 +17,7 @@ qbs (1.4~7fd456-1) experimental; urgency=medium
 
   [ Adam Majer ]
   * Release snapshot of 1.4.x branch as of 7fd456 commit
-     + endianness patch applied upstream, removed from patches
+    + endianness patch applied upstream, removed from patches
   * Add myself to uploaders
 
  -- Adam Majer <adamm@zombino.com>  Thu, 12 Mar 2015 18:55:22 -0500

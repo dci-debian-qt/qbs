@@ -7,6 +7,7 @@ qbs (1.4~git20150407-c224c8-1) UNRELEASED; urgency=medium
   * Clean up patches and bump Last-Update timestamps.
   * Update name of qbs_disable_rpath variable, following upstream
     change (commit a8e6324de460745a).
+  * Update libqbscore1.symbols for the new snapshot.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Mar 2015 13:35:25 +0300
 

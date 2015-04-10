@@ -1,6 +1,5 @@
-qbs (1.4~git20150407-c224c8-1) UNRELEASED; urgency=medium
+qbs (1.4~git20150407-c224c8-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream snapshot.
   * Fix a typo in previous changelog entry.
   * Sort debian/qbs.install.
@@ -10,7 +9,7 @@ qbs (1.4~git20150407-c224c8-1) UNRELEASED; urgency=medium
   * Update libqbscore1.symbols for the new snapshot.
   * Properly version symbols introduced in previous upload.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Mar 2015 13:35:25 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 10 Apr 2015 09:33:46 +0300
 
 qbs (1.4~7fd456-1) experimental; urgency=medium
 

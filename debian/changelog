@@ -1,3 +1,10 @@
+qbs (1.4.1+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jul 2015 16:30:46 +0300
+
 qbs (1.4~git20150407-c224c8-1) experimental; urgency=medium
 
   * New upstream snapshot.

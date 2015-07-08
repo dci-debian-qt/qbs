@@ -1,0 +1,29 @@
+Description: revert upstream commit that made tests less stable
+ This one: http://code.qt.io/cgit/qt-labs/qbs.git/commit/?id=b7d70d48508e4645.
+Author: Dmitry Shachnev <mitya57@debian.org>
+Forwarded: no
+Last-Update: 2015-07-08
+
+--- a/tests/auto/shared.h
++++ b/tests/auto/shared.h
+@@ -91,17 +91,10 @@
+ inline void waitForNewTimestamp()
+ {
+     // Waits for the time that corresponds to the host file system's time stamp granularity.
+-    if (qbs::Internal::HostOsInfo::isWindowsHost()) {
++    if (qbs::Internal::HostOsInfo::isWindowsHost())
+         QTest::qWait(1);        // NTFS has 100 ns precision. Let's ignore exFAT.
+-    } else {
+-        time_t oldTime;
+-        time_t newTime = std::time(0);
+-        do {
+-            oldTime = newTime;
+-            QTest::qWait(50);
+-            newTime = std::time(0);
+-        } while (oldTime == newTime);
+-    }
++    else
++        QTest::qWait(1000);
+ }
+ 
+ inline void touch(const QString &fn)

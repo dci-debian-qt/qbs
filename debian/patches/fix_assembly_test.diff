@@ -1,0 +1,20 @@
+Description: fix testAssembly blackbox test on all non-Intel architectures
+Origin: upstream, http://code.qt.io/cgit/qt-labs/qbs.git/commit/?id=ee02724725c27e81
+Last-Update: 2015-07-09
+
+--- a/tests/auto/blackbox/testdata/assembly/assembly.qbs
++++ b/tests/auto/blackbox/testdata/assembly/assembly.qbs
+@@ -20,8 +20,11 @@
+         condition: qbs.toolchain.contains("gcc")
+     }
+     StaticLibrary {
+-        name : "testd"
+-        files : [ "testd_" + qbs.architecture + ".asm" ]
++        name: "testd"
++        Group {
++            condition: product.condition
++            files: ["testd_" + qbs.architecture + ".asm"]
++        }
+         Depends { name: "cpp" }
+         condition: qbs.toolchain.contains("msvc")
+                    && (qbs.architecture === "x86" || qbs.architecture === "x86_64")

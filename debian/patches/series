@@ -1,3 +1,4 @@
 skip_test.diff
 remove_rpaths.diff
 revert_tests_speedup.diff
+fix_assembly_test.diff

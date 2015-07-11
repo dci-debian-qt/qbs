@@ -5,6 +5,8 @@ qbs (1.4.1+dfsg-3) UNRELEASED; urgency=medium
     where it is supported (fix_assembly_test.diff).
   * Replace revert_tests_speedup.diff with proposed upstream version
     by Christian Kandeler.
+  * Disable moc-hpp-included test which currently fails because of a bug
+    in QtScript on some architectures (disable_moc_hpp_included.diff).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Jul 2015 14:45:25 +0300
 

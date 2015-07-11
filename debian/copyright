@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: QBS
-Source: http://download.qt-project.org/official_releases/qbs/
+Source: https://download.qt.io/official_releases/qbs/
 Files-Excluded: doc/templates/scripts/jquery.js
 
 Files: *

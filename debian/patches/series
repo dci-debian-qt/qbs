@@ -2,5 +2,5 @@ skip_test.diff
 remove_rpaths.diff
 revert_tests_speedup.diff
 fix_assembly_test.diff
-disable_moc_hpp_included.diff
+disable_tests_qtscript.diff
 bsd_includes.diff

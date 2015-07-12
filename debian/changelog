@@ -1,13 +1,12 @@
-qbs (1.4.1+dfsg-4) UNRELEASED; urgency=medium
+qbs (1.4.1+dfsg-4) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Add missing includes for kinfo_getproc(3) on kFreeBSD
     (bsd_includes.diff).
   * Disable one more test (infinite-loop-js) failing because of QtScript
     bugs to make the build pass on powerpc. Rename the patch from
     disable_moc_hpp_included.diff to disable_tests_qtscript.diff.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jul 2015 16:31:57 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 12 Jul 2015 17:08:33 +0300
 
 qbs (1.4.1+dfsg-3) experimental; urgency=medium
 

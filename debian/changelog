@@ -1,3 +1,8 @@
+qbs (1.4.1+dfsg-5) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 13 Jul 2015 12:42:36 +0300
+
 qbs (1.4.1+dfsg-4) experimental; urgency=medium
 
   * Add missing includes for kinfo_getproc(3) on kFreeBSD

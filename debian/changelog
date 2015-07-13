@@ -1,11 +1,10 @@
-qbs (1.4.1+dfsg-5) UNRELEASED; urgency=medium
+qbs (1.4.1+dfsg-5) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Fixup the previous kFreeBSD fix; add B-D on libutil-freebsd-dev.
   * Use a whitelist of architectures where we run tests, until QBS
     gets ported away from QtScript.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 13 Jul 2015 12:42:36 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 13 Jul 2015 13:20:21 +0300
 
 qbs (1.4.1+dfsg-4) experimental; urgency=medium
 

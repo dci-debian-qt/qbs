@@ -1,5 +1,7 @@
 qbs (1.4.1+dfsg-5) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Fixup the previous kFreeBSD fix; add B-D on libutil-freebsd-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 13 Jul 2015 12:42:36 +0300
 

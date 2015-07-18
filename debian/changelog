@@ -1,10 +1,9 @@
-qbs (1.4.1+dfsg-7) UNRELEASED; urgency=medium
+qbs (1.4.1+dfsg-7) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Skip homeDirectory test because buildds do not have home directory
     (skip_test_homedirectory.diff).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jul 2015 21:10:02 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 18 Jul 2015 21:18:43 +0300
 
 qbs (1.4.1+dfsg-6) unstable; urgency=medium
 

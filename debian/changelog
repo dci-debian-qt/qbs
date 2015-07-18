@@ -1,3 +1,8 @@
+qbs (1.4.1+dfsg-7) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jul 2015 21:10:02 +0300
+
 qbs (1.4.1+dfsg-6) unstable; urgency=medium
 
   * Simplify testing commands: no need to pass --settings-dir because

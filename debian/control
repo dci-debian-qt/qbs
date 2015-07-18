@@ -6,7 +6,6 @@ Uploaders: Dmitry Shachnev <mitya57@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Adam Majer <adamm@zombino.com>
 Build-Depends: debhelper (>= 9),
-               libutil-freebsd-dev [kfreebsd-any],
                pkg-kde-tools,
                qtbase5-dev,
                qtdeclarative5-dev,

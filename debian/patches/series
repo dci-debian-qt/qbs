@@ -3,4 +3,4 @@ remove_rpaths.diff
 revert_tests_speedup.diff
 fix_assembly_test.diff
 disable_tests_qtscript.diff
-bsd_includes.diff
+kfreebsd.diff

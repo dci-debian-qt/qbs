@@ -287,7 +287,79 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8ILogSinkD0Ev@Base 1.2.1
  _ZN3qbs8ILogSinkD1Ev@Base 1.2.1
  _ZN3qbs8ILogSinkD2Ev@Base 1.2.1
+ _ZN3qbs8Internal12TestLanguage11moduleScopeEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage11qt_metacastEPKc@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage11qualifiedIdEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage12basePropertyEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage12initTestCaseEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage12jsExtensionsEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage12modules_dataEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage12outerInGroupEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage13fileTags_dataEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage13homeDirectoryEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage13itemPrototypeEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage14erroneousFilesEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage14pathPropertiesEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage14wildcards_dataEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage15cleanupTestCaseEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage15groupConditionsEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage16findModuleByNameE14QSharedPointerINS0_15ResolvedProductEERK7QString@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage16getNativeSettingEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage16identifierSearchEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage16modulePropertiesEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage16propertiesBlocksEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage16staticMetaObjectE@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage17productConditionsEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage17rfc1034IdentifierEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage18conditionalDependsEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage18productDirectoriesEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage19environmentVariableEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage19erroneousFiles_dataEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage19productsFromProjectE14QSharedPointerINS0_15ResolvedProjectEE@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage20groupConditions_dataEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage20productPropertyValueE14QSharedPointerINS0_15ResolvedProductEE7QString@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage21canonicalArchitectureEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage21fileContextPropertiesEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage21identifierSearch_dataEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage21moduleProperties_dataEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage21propertiesBlocks_dataEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage23dependencyOnAllProfilesEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage25handleInitCleanupDataTagsEPKcPb@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage27buildConfigStringListSyntaxEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage28invalidBindingInDisabledItemEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage28jsImportUsedInMultipleScopesEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage32profileValuesAndOverriddenValuesEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage33jsImportUsedInMultipleScopes_dataEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage36builtinFunctionInSearchPathsPropertyEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage7exportsEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage7idUsageEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage7modulesEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage8fileTagsEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage9groupNameEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage9itemScopeEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage9wildcardsEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguageC1EPNS_8ILogSinkE@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguageC2EPNS_8ILogSinkE@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguageD0Ev@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguageD1Ev@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguageD2Ev@Base 1.4.1
  _ZN3qbs8Internal13shellQuoteWinERK7QString@Base 1.3.1
+ _ZN3qbs8Internal14TestBuildGraph11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraph11qt_metacastEPKc@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraph12initTestCaseEv@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraph13cycleDetectedERK14QSharedPointerIKNS0_15ResolvedProductEE@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraph15cleanupTestCaseEv@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraph16staticMetaObjectE@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraph18productWithNoCycleEv@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraph22productWithDirectCycleEv@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraph26productWithLessDirectCycleEv@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraph9testCycleEv@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraphC1EPNS_8ILogSinkE@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraphC2EPNS_8ILogSinkE@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraphD0Ev@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraphD1Ev@Base 1.4.1
+ _ZN3qbs8Internal14TestBuildGraphD2Ev@Base 1.4.1
  _ZN3qbs8Internal14shellQuoteUnixERK7QString@Base 1.3.1
  _ZN3qbs8Internal16shellInterpreterERK7QString@Base 1.4.0
  _ZN3qbs8Internal17copyFileRecursionERK7QStringS3_bPS1_@Base 1.2.1
@@ -317,6 +389,19 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8Internal9LogWriterD1Ev@Base 1.2.1
  _ZN3qbs8Internal9LogWriterD2Ev@Base 1.2.1
  _ZN3qbs8Internal9LogWriteraSERKS1_@Base 1.2.1
+ _ZN3qbs8Internal9TestTools11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.4.1
+ _ZN3qbs8Internal9TestTools11qt_metacastEPKc@Base 1.4.1
+ _ZN3qbs8Internal9TestTools12testFileInfoEv@Base 1.4.1
+ _ZN3qbs8Internal9TestTools12testProfilesEv@Base 1.4.1
+ _ZN3qbs8Internal9TestTools13fileCaseCheckEv@Base 1.4.1
+ _ZN3qbs8Internal9TestTools16staticMetaObjectE@Base 1.4.1
+ _ZN3qbs8Internal9TestTools20testProcessNameByPidEv@Base 1.4.1
+ _ZN3qbs8Internal9TestTools22testBuildConfigMergingEv@Base 1.4.1
+ _ZN3qbs8Internal9TestToolsC1EPNS_8SettingsE@Base 1.4.1
+ _ZN3qbs8Internal9TestToolsC2EPNS_8SettingsE@Base 1.4.1
+ _ZN3qbs8Internal9TestToolsD0Ev@Base 1.4.1
+ _ZN3qbs8Internal9TestToolsD1Ev@Base 1.4.1
+ _ZN3qbs8Internal9TestToolsD2Ev@Base 1.4.1
  _ZN3qbs8InternallsENS0_9LogWriterEPKc@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterERK10QByteArray@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterERK11QStringList@Base 1.2.1
@@ -551,6 +636,8 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZNK3qbs8BuildJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs8CleanJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs8ILogSink8logLevelEv@Base 1.2.1
+ _ZNK3qbs8Internal12TestLanguage10metaObjectEv@Base 1.4.1
+ _ZNK3qbs8Internal14TestBuildGraph10metaObjectEv@Base 1.4.1
  _ZNK3qbs8Internal6Logger12debugEnabledEv@Base 1.2.1
  _ZNK3qbs8Internal6Logger12traceEnabledEv@Base 1.2.1
  _ZNK3qbs8Internal6Logger6qbsLogENS_11LoggerLevelEb@Base 1.2.1
@@ -559,6 +646,7 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZNK3qbs8Internal7Version12majorVersionEv@Base 1.3.1
  _ZNK3qbs8Internal7Version12minorVersionEv@Base 1.3.1
  _ZNK3qbs8Internal7Version8toStringEv@Base 1.3.1
+ _ZNK3qbs8Internal9TestTools10metaObjectEv@Base 1.4.1
  _ZNK3qbs8Settings14defaultProfileEv@Base 1.2.1
  _ZNK3qbs8Settings17allKeysWithPrefixERK7QString@Base 1.2.1
  _ZNK3qbs8Settings22externalRepresentationERK7QString@Base 1.2.1
@@ -591,6 +679,9 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZTIN3qbs8BuildJobE@Base 1.2.1
  _ZTIN3qbs8CleanJobE@Base 1.2.1
  _ZTIN3qbs8ILogSinkE@Base 1.2.1
+ _ZTIN3qbs8Internal12TestLanguageE@Base 1.4.1
+ _ZTIN3qbs8Internal14TestBuildGraphE@Base 1.4.1
+ _ZTIN3qbs8Internal9TestToolsE@Base 1.4.1
  _ZTIN3qbs9ErrorInfoE@Base 1.2.1
  _ZTS11QScriptable@Base 1.2.1
  _ZTSN3qbs10InstallJobE@Base 1.2.1
@@ -600,6 +691,9 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZTSN3qbs8BuildJobE@Base 1.2.1
  _ZTSN3qbs8CleanJobE@Base 1.2.1
  _ZTSN3qbs8ILogSinkE@Base 1.2.1
+ _ZTSN3qbs8Internal12TestLanguageE@Base 1.4.1
+ _ZTSN3qbs8Internal14TestBuildGraphE@Base 1.4.1
+ _ZTSN3qbs8Internal9TestToolsE@Base 1.4.1
  _ZTSN3qbs9ErrorInfoE@Base 1.2.1
  _ZTVN3qbs10InstallJobE@Base 1.2.1
  _ZTVN3qbs11AbstractJobE@Base 1.2.1
@@ -608,3 +702,6 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZTVN3qbs8BuildJobE@Base 1.2.1
  _ZTVN3qbs8CleanJobE@Base 1.2.1
  _ZTVN3qbs8ILogSinkE@Base 1.2.1
+ _ZTVN3qbs8Internal12TestLanguageE@Base 1.4.1
+ _ZTVN3qbs8Internal14TestBuildGraphE@Base 1.4.1
+ _ZTVN3qbs8Internal9TestToolsE@Base 1.4.1

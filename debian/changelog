@@ -4,6 +4,8 @@ qbs (1.4.1+dfsg-6) UNRELEASED; urgency=medium
   * Simplify testing commands: no need to pass --settings-dir because
     we export XDG_CONFIG_HOME anyway.
   * Define qbs_enable_unit_tests to enable some additional tests.
+  * Move tests whitelist logic to auto.pro, so that non-API tests are
+    still run on non-whitelisted architectures.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jul 2015 18:00:48 +0300
 

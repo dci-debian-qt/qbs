@@ -4,17 +4,12 @@
 #export DH_VERBOSE=1
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
-DEB_HOST_ARCH_CPU ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_CPU)
 CONFIG_DIR = $(CURDIR)/debian/config
 
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
-
-# On other archs there are random segfaults in QtScript code.
-# We will enable the tests everywhere when QBS gets ported away from QtScript.
-tested_archs = amd64 arm64 armel armhf i386 mips s390x
 
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qbs-dbg
@@ -55,7 +50,6 @@ override_dh_auto_install-arch:
 
 override_dh_auto_test:
 	mkdir -p $(CONFIG_DIR)/QtProject
-ifneq (,$(filter $(DEB_HOST_ARCH_CPU),$(tested_archs)))
 	set -ex; \
 		export LD_LIBRARY_PATH=$(CURDIR)/lib/:$$LD_LIBRARY_PATH; \
 		export XDG_CONFIG_HOME=$(CONFIG_DIR); \
@@ -64,7 +58,6 @@ ifneq (,$(filter $(DEB_HOST_ARCH_CPU),$(tested_archs)))
 		[ -n "`$(CURDIR)/bin/qbs-config --list profiles.qbs_autotests.baseProfile`" ] || \
 			$(CURDIR)/bin/qbs-config profiles.qbs_autotests.baseProfile gcc; \
 		dh_auto_test
-endif
 
 override_dh_install:
 	dh_install --fail-missing

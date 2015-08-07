@@ -1,5 +1,8 @@
 qbs (1.4.1+dfsg-8) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Tell qmake where to install libraries and plugins, rather than moving
+    them after installing (LP: #1456593).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Aug 2015 21:30:06 +0300
 

@@ -30,7 +30,7 @@ override_dh_auto_configure:
 		QMAKE_LFLAGS+="${LDFLAGS}" \
 		QBS_INSTALL_PREFIX=/usr \
 		QBS_LIB_INSTALL_DIR=/usr/lib/${DEB_HOST_MULTIARCH} \
-		QBS_PLUGINS_INSTALL_DIR=/usr/lib/${DEB_HOST_MULTIARCH}/qbs/plugins
+		QBS_PLUGINS_INSTALL_DIR=/usr/lib/${DEB_HOST_MULTIARCH}
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs

@@ -16,7 +16,7 @@ export QT_SELECT := qt5
 
 override_dh_auto_clean:
 	dh_auto_clean
-	rm -rfv doc/html $(CONFIG_DIR) tests/auto/*/testWorkDir
+	rm -rfv doc/html $(CONFIG_DIR) tests/auto/*/testWorkDir lib
 	rm -fv doc/qbs.qch bin/qbs* bin/tst*
 
 override_dh_auto_configure:

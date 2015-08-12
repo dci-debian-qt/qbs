@@ -6,9 +6,6 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs10InstallJob7installERK14QSharedPointerINS_8Internal15TopLevelProjectEERK5QListIS1_INS2_15ResolvedProductEEERKNS_14InstallOptionsE@Base 1.2.1
  _ZN3qbs10InstallJobC1ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs10InstallJobC2ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
- (optional=gccinternal)_ZN3qbs10InstallJobD0Ev@Base 1.2.1
- (optional=gccinternal)_ZN3qbs10InstallJobD1Ev@Base 1.2.1
- (optional=gccinternal)_ZN3qbs10InstallJobD2Ev@Base 1.2.1
  _ZN3qbs11AbstractJob11lockProjectERK14QSharedPointerINS_8Internal15TopLevelProjectEE@Base 1.3.1
  _ZN3qbs11AbstractJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs11AbstractJob11qt_metacastEPKc@Base 1.2.1
@@ -191,9 +188,6 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs15SetupProjectJob7resolveERKNS_7ProjectERKNS_22SetupProjectParametersE@Base 1.3.1
  _ZN3qbs15SetupProjectJobC1ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs15SetupProjectJobC2ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
- (optional=gccinternal)_ZN3qbs15SetupProjectJobD0Ev@Base 1.2.1
- (optional=gccinternal)_ZN3qbs15SetupProjectJobD1Ev@Base 1.2.1
- (optional=gccinternal)_ZN3qbs15SetupProjectJobD2Ev@Base 1.2.1
  _ZN3qbs19commandEchoModeNameENS_15CommandEchoModeE@Base 1.4.0
  _ZN3qbs21canonicalArchitectureERK7QString@Base 1.3.2
  _ZN3qbs22SetupProjectParameters12setBuildRootERK7QString@Base 1.2.1
@@ -266,18 +260,12 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8BuildJob5buildERK14QSharedPointerINS_8Internal15TopLevelProjectEERK5QListIS1_INS2_15ResolvedProductEEERKNS_12BuildOptionsE@Base 1.2.1
  _ZN3qbs8BuildJobC1ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs8BuildJobC2ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
- (optional=gccinternal)_ZN3qbs8BuildJobD0Ev@Base 1.2.1
- (optional=gccinternal)_ZN3qbs8BuildJobD1Ev@Base 1.2.1
- (optional=gccinternal)_ZN3qbs8BuildJobD2Ev@Base 1.2.1
  _ZN3qbs8CleanJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs8CleanJob11qt_metacastEPKc@Base 1.2.1
  _ZN3qbs8CleanJob16staticMetaObjectE@Base 1.2.1
  _ZN3qbs8CleanJob5cleanERK14QSharedPointerINS_8Internal15TopLevelProjectEERK5QListIS1_INS2_15ResolvedProductEEERKNS_12CleanOptionsE@Base 1.2.1
  _ZN3qbs8CleanJobC1ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs8CleanJobC2ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
- (optional=gccinternal)_ZN3qbs8CleanJobD0Ev@Base 1.2.1
- (optional=gccinternal)_ZN3qbs8CleanJobD1Ev@Base 1.2.1
- (optional=gccinternal)_ZN3qbs8CleanJobD2Ev@Base 1.2.1
  _ZN3qbs8ILogSink11setLogLevelENS_11LoggerLevelE@Base 1.2.1
  _ZN3qbs8ILogSink12printMessageENS_11LoggerLevelERK7QStringS4_b@Base 1.2.1
  _ZN3qbs8ILogSink12printWarningERKNS_9ErrorInfoE@Base 1.2.1
@@ -357,9 +345,6 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8Internal14TestBuildGraph9testCycleEv@Base 1.4.1
  _ZN3qbs8Internal14TestBuildGraphC1EPNS_8ILogSinkE@Base 1.4.1
  _ZN3qbs8Internal14TestBuildGraphC2EPNS_8ILogSinkE@Base 1.4.1
- _ZN3qbs8Internal14TestBuildGraphD0Ev@Base 1.4.1
- _ZN3qbs8Internal14TestBuildGraphD1Ev@Base 1.4.1
- _ZN3qbs8Internal14TestBuildGraphD2Ev@Base 1.4.1
  _ZN3qbs8Internal14shellQuoteUnixERK7QString@Base 1.3.1
  _ZN3qbs8Internal16shellInterpreterERK7QString@Base 1.4.0
  _ZN3qbs8Internal17copyFileRecursionERK7QStringS3_bPS1_@Base 1.2.1
@@ -399,9 +384,6 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8Internal9TestTools22testBuildConfigMergingEv@Base 1.4.1
  _ZN3qbs8Internal9TestToolsC1EPNS_8SettingsE@Base 1.4.1
  _ZN3qbs8Internal9TestToolsC2EPNS_8SettingsE@Base 1.4.1
- _ZN3qbs8Internal9TestToolsD0Ev@Base 1.4.1
- _ZN3qbs8Internal9TestToolsD1Ev@Base 1.4.1
- _ZN3qbs8Internal9TestToolsD2Ev@Base 1.4.1
  _ZN3qbs8InternallsENS0_9LogWriterEPKc@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterERK10QByteArray@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterERK11QStringList@Base 1.2.1
@@ -469,7 +451,7 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbsneERKNS_14TargetArtifactES2_@Base 1.2.1
  _ZN3qbsneERKNS_15InstallableFileES2_@Base 1.2.1
  _ZN3qbsneERKNS_9GroupDataES2_@Base 1.2.1
- (optional=inline|arch=arm64 armel armhf mips mipsel powerpc ppc64el s390x)_ZN9QHashData9hasShrunkEv@Base 1.3.1
+ (optional=inline|arch=amd64 arm64 armel mips mipsel powerpc ppc64el s390x)_ZN9QHashData9hasShrunkEv@Base 1.3.1
  _ZNK3qbs10InstallJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs11AbstractJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs11AbstractJob5errorEv@Base 1.2.1

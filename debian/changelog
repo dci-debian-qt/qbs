@@ -4,6 +4,7 @@ qbs (1.4.1+dfsg-8) UNRELEASED; urgency=medium
   * Tell qmake where to install libraries and plugins, rather than moving
     them after installing (LP: #1456593).
   * Remove lib/ directory in clean target.
+  * Update symbols files for GCC 5, fixing a build failure.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Aug 2015 21:30:06 +0300
 

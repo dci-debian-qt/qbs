@@ -275,11 +275,14 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8ILogSinkD0Ev@Base 1.2.1
  _ZN3qbs8ILogSinkD1Ev@Base 1.2.1
  _ZN3qbs8ILogSinkD2Ev@Base 1.2.1
+ _ZN3qbs8Internal10shellQuoteERK7QStringNS0_10HostOsInfo6HostOsE@Base 1.4.2
+ _ZN3qbs8Internal10shellQuoteERK7QStringRK11QStringListNS0_10HostOsInfo6HostOsE@Base 1.4.2
  _ZN3qbs8Internal12TestLanguage11moduleScopeEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage11qt_metacastEPKc@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage11qualifiedIdEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage12basePropertyEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage12defaultValueEv@Base 1.4.2
  _ZN3qbs8Internal12TestLanguage12initTestCaseEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage12jsExtensionsEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage12modules_dataEv@Base 1.4.1
@@ -295,9 +298,11 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8Internal12TestLanguage16findModuleByNameE14QSharedPointerINS0_15ResolvedProductEERK7QString@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage16getNativeSettingEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage16identifierSearchEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage16importCollectionEv@Base 1.4.2
  _ZN3qbs8Internal12TestLanguage16modulePropertiesEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage16propertiesBlocksEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage16staticMetaObjectE@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage17defaultValue_dataEv@Base 1.4.2
  _ZN3qbs8Internal12TestLanguage17productConditionsEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage17rfc1034IdentifierEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage18conditionalDependsEv@Base 1.4.1
@@ -317,6 +322,7 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8Internal12TestLanguage27buildConfigStringListSyntaxEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage28invalidBindingInDisabledItemEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage28jsImportUsedInMultipleScopesEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage28recursiveProductDependenciesEv@Base 1.4.2
  _ZN3qbs8Internal12TestLanguage32profileValuesAndOverriddenValuesEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage33jsImportUsedInMultipleScopes_dataEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage36builtinFunctionInSearchPathsPropertyEv@Base 1.4.1
@@ -332,7 +338,6 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8Internal12TestLanguageD0Ev@Base 1.4.1
  _ZN3qbs8Internal12TestLanguageD1Ev@Base 1.4.1
  _ZN3qbs8Internal12TestLanguageD2Ev@Base 1.4.1
- _ZN3qbs8Internal13shellQuoteWinERK7QString@Base 1.3.1
  _ZN3qbs8Internal14TestBuildGraph11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.4.1
  _ZN3qbs8Internal14TestBuildGraph11qt_metacastEPKc@Base 1.4.1
  _ZN3qbs8Internal14TestBuildGraph12initTestCaseEv@Base 1.4.1
@@ -345,7 +350,6 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZN3qbs8Internal14TestBuildGraph9testCycleEv@Base 1.4.1
  _ZN3qbs8Internal14TestBuildGraphC1EPNS_8ILogSinkE@Base 1.4.1
  _ZN3qbs8Internal14TestBuildGraphC2EPNS_8ILogSinkE@Base 1.4.1
- _ZN3qbs8Internal14shellQuoteUnixERK7QString@Base 1.3.1
  _ZN3qbs8Internal16shellInterpreterERK7QString@Base 1.4.0
  _ZN3qbs8Internal17copyFileRecursionERK7QStringS3_bPS1_@Base 1.2.1
  _ZN3qbs8Internal19throwAssertLocationEPKcS2_i@Base 1.2.1

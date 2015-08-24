@@ -2,6 +2,10 @@ qbs (1.4.2+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Drop patches:
+    - fix_assembly_test.diff (applied upstream)
+    - revert_tests_speedup.diff (applied upstream)
+  * Refresh and rebase other patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Aug 2015 17:15:56 +0300
 

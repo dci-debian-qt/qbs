@@ -1,24 +1,22 @@
 Description: add implementation of processNameByPid for GNU/kFreeBSD
 Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: no
-Last-Update: 2015-07-18
+Last-Update: 2015-08-24
 
 --- a/src/lib/corelib/tools/processutils.cpp
 +++ b/src/lib/corelib/tools/processutils.cpp
-@@ -41,7 +41,12 @@
+@@ -41,7 +41,9 @@
  #   include <unistd.h>
  #   include <cstdio>
  #elif defined(Q_OS_BSD4)
+-#   include <libutil.h>
 +#   include <sys/cdefs.h>
 +#   include <sys/param.h>
 +#   include <sys/sysctl.h>
+ #   include <sys/types.h>
  #   include <sys/user.h>
-+#   include <cstdlib>
-+#   include <cstring>
  #else
- #   error Missing implementation of processNameByPid for this platform.
- #endif
-@@ -80,9 +85,21 @@
+@@ -82,9 +84,21 @@
      readlink(exePath, buf, sizeof(buf));
      return FileInfo::fileName(QString::fromUtf8(buf));
  #elif defined(Q_OS_BSD4)

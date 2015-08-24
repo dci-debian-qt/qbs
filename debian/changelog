@@ -1,3 +1,10 @@
+qbs (1.4.2+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Aug 2015 17:15:56 +0300
+
 qbs (1.4.1+dfsg-8) unstable; urgency=medium
 
   * Tell qmake where to install libraries and plugins, rather than moving

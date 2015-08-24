@@ -8,6 +8,7 @@ qbs (1.4.2+dfsg-1) UNRELEASED; urgency=medium
     - skip_test.diff (no longer needed)
   * Refresh and rebase other patches.
   * Update qbs.install to install some new files.
+  * Remove gitignore files in clean target.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Aug 2015 17:15:56 +0300
 

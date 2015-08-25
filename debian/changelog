@@ -1,6 +1,5 @@
-qbs (1.4.2+dfsg-1) UNRELEASED; urgency=medium
+qbs (1.4.2+dfsg-1) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Drop patches:
     - fix_assembly_test.diff (applied upstream)
@@ -12,7 +11,7 @@ qbs (1.4.2+dfsg-1) UNRELEASED; urgency=medium
   * Minor debian/copyright updates.
   * Update libqbscore1.symbols (only internal symbols changed).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Aug 2015 17:15:56 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 24 Aug 2015 18:49:24 +0300
 
 qbs (1.4.1+dfsg-8) unstable; urgency=medium
 

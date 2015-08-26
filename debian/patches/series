@@ -2,3 +2,4 @@ skip_test_homedirectory.diff
 remove_rpaths.diff
 disable_tests_qtscript.diff
 kfreebsd.diff
+dont_throw_exceptions.diff

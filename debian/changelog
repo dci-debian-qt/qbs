@@ -1,3 +1,8 @@
+qbs (1.4.2+dfsg-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Sep 2015 20:17:18 +0300
+
 qbs (1.4.2+dfsg-2) unstable; urgency=medium
 
   * Backport upstream change that should hopefully fix tests failures

@@ -1,9 +1,8 @@
-qbs (1.4.2+dfsg-3) UNRELEASED; urgency=medium
+qbs (1.4.2+dfsg-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Use QBS_LIBRARY_DIRNAME to specify library dir (closes: #797774).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Sep 2015 20:17:18 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 05 Sep 2015 10:24:02 +0300
 
 qbs (1.4.2+dfsg-2) unstable; urgency=medium
 

@@ -1,5 +1,7 @@
 qbs (1.4.2+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Use QBS_LIBRARY_DIRNAME to specify library dir (closes: #797774).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Sep 2015 20:17:18 +0300
 

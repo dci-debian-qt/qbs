@@ -30,8 +30,7 @@ override_dh_auto_configure:
 		QMAKE_CXXFLAGS+="${CXXFLAGS} ${CPPFLAGS}" \
 		QMAKE_LFLAGS+="${LDFLAGS}" \
 		QBS_INSTALL_PREFIX=/usr \
-		QBS_LIB_INSTALL_DIR=/usr/lib/${DEB_HOST_MULTIARCH} \
-		QBS_PLUGINS_INSTALL_DIR=/usr/lib/${DEB_HOST_MULTIARCH}
+		QBS_LIBRARY_DIRNAME=lib/${DEB_HOST_MULTIARCH}
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
@@ -46,7 +45,7 @@ override_dh_auto_install-indep:
 override_dh_auto_test:
 	mkdir -p $(CONFIG_DIR)/QtProject
 	set -ex; \
-		export LD_LIBRARY_PATH=$(CURDIR)/lib/:$$LD_LIBRARY_PATH; \
+		export LD_LIBRARY_PATH=$(CURDIR)/lib/${DEB_HOST_MULTIARCH}:$$LD_LIBRARY_PATH; \
 		export XDG_CONFIG_HOME=$(CONFIG_DIR); \
 		$(CURDIR)/bin/qbs-setup-toolchains --detect; \
 		$(CURDIR)/bin/qbs-setup-qt /usr/bin/qmake qbs_autotests; \

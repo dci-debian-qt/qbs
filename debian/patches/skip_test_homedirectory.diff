@@ -5,7 +5,7 @@ Last-Update: 2015-07-18
 
 --- a/src/lib/corelib/language/tst_language.cpp
 +++ b/src/lib/corelib/language/tst_language.cpp
-@@ -737,6 +737,7 @@
+@@ -739,6 +739,7 @@
  
  void TestLanguage::homeDirectory()
  {

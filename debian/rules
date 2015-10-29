@@ -42,7 +42,7 @@ override_dh_auto_install-indep:
 	rmdir $(CURDIR)/debian/tmp/usr/share/doc/qbs/html/images/used-in-examples/
 	rmdir $(CURDIR)/debian/tmp/usr/share/doc/qbs/html/scripts/
 
-override_dh_auto_test:
+override_dh_auto_test-arch:
 	mkdir -p $(CONFIG_DIR)/QtProject
 	set -ex; \
 		export LD_LIBRARY_PATH=$(CURDIR)/lib/${DEB_HOST_MULTIARCH}:$$LD_LIBRARY_PATH; \
@@ -52,6 +52,8 @@ override_dh_auto_test:
 		[ -n "`$(CURDIR)/bin/qbs-config --list profiles.qbs_autotests.baseProfile`" ] || \
 			$(CURDIR)/bin/qbs-config profiles.qbs_autotests.baseProfile gcc; \
 		dh_auto_test
+
+override_dh_auto_test-indep:
 
 override_dh_install:
 	dh_install --fail-missing

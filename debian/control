@@ -19,7 +19,7 @@ Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qbs.git
 Package: qbs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qbs-common, ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtcreator (<< 3.2.1+dfsg-8~)
 Replaces: qtcreator (<< 3.2.1+dfsg-8~)
 Description: Qt Build Suite
@@ -27,6 +27,17 @@ Description: Qt Build Suite
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt Build Suite, a cross-platform build tool.
+
+Package: qbs-common
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: qbs (<< 1.4.3+dfsg-2~)
+Replaces: qbs (<< 1.4.3+dfsg-2~)
+Description: Qt Build Suite static files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Build Suite shared static files.
 
 Package: libqbscore1
 Architecture: any

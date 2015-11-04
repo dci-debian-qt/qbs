@@ -1,5 +1,6 @@
 qbs (1.4.3+dfsg-3) UNRELEASED; urgency=medium
 
+  * Update debian/libqbscore1.symbols from buildds’ logs.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Wed, 04 Nov 2015 09:41:32 +0300
 

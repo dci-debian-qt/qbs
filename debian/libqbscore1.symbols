@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 1.4.3 amd64
+# SymbolsHelper-Confirmed: 1.4.3 alpha amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
 libqbscore.so.1 libqbscore1 #MINVER#
- (arch=armhf mips mips64el mipsel)_ZN10QByteArray7reserveEi@Base 1.4.2
+ (optional=inline|arch=armhf)_ZN10QByteArray7reserveEi@Base 1.4.2
  _ZN3qbs10InstallJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs10InstallJob11qt_metacastEPKc@Base 1.2.1
  _ZN3qbs10InstallJob16staticMetaObjectE@Base 1.2.1
@@ -659,6 +659,7 @@ libqbscore.so.1 libqbscore1 #MINVER#
  _ZNK3qbs9GroupData7isValidEv@Base 1.2.1
  _ZNK3qbs9GroupData8locationEv@Base 1.2.1
  _ZNK3qbs9GroupData9isEnabledEv@Base 1.2.1
+ (optional=templinst|arch=armel armhf i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 1.4.3
  _ZTI11QScriptable@Base 1.2.1
  _ZTIN3qbs10InstallJobE@Base 1.2.1
  _ZTIN3qbs11AbstractJobE@Base 1.2.1

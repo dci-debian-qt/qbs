@@ -1,4 +1,4 @@
-qbs (1.4.3+dfsg-3) UNRELEASED; urgency=medium
+qbs (1.4.3+dfsg-3) unstable; urgency=medium
 
   * Update debian/libqbscore1.symbols from buildds’ logs.
 

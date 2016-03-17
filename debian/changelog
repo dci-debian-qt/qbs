@@ -3,6 +3,7 @@ qbs (1.4.5+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Use recommended https URIs for Vcs fields.
   * Bump Standards-Version to 3.9.7, no changes needed.
+  * Migrate to automatic dbgsym packages.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Thu, 17 Mar 2016 18:50:14 +0100
 

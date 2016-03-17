@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Dmitry Shachnev <mitya57@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Adam Majer <adamm@zombino.com>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 9.20160114~),
                pkg-kde-tools,
                qtbase5-dev,
                qtdeclarative5-dev,
@@ -73,17 +73,6 @@ Description: Qt Build Suite development files
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains headers and development files for Qt Build Suite.
-
-Package: qbs-dbg
-Priority: extra
-Architecture: any
-Section: debug
-Depends: qbs (= ${binary:Version}), ${misc:Depends}
-Description: Qt Build Suite debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt Build Suite.
 
 Package: qbs-examples
 Architecture: all

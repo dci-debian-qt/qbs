@@ -52,7 +52,7 @@ override_dh_auto_test-arch:
 		$(CURDIR)/bin/qbs-setup-qt /usr/bin/qmake qbs_autotests; \
 		[ -n "`$(CURDIR)/bin/qbs-config --list profiles.qbs_autotests.baseProfile`" ] || \
 			$(CURDIR)/bin/qbs-config profiles.qbs_autotests.baseProfile gcc; \
-		dh_auto_test
+		LC_ALL=C.UTF-8 dh_auto_test
 
 override_dh_auto_test-indep:
 

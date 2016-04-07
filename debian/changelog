@@ -1,5 +1,7 @@
 qbs (1.4.5+dfsg-3) UNRELEASED; urgency=medium
 
+  * Set LC_ALL=C.UTF-8 when running tests, as according to upstream the
+    testsuite assumes English locale.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Thu, 07 Apr 2016 23:31:37 +0200
 

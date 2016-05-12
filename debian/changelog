@@ -1,4 +1,4 @@
-qbs (1.5.0+dfsg-1) UNRELEASED; urgency=medium
+qbs (1.5.0+dfsg-1) unstable; urgency=medium
 
   * New upstream release.
   * Set LC_ALL=C.UTF-8 when running tests, as according to upstream the
@@ -8,7 +8,7 @@ qbs (1.5.0+dfsg-1) UNRELEASED; urgency=medium
   * Update debian/libqbscore1.symbols from amd64 build log.
   * Bump Standards-Version to 3.9.8, no changes needed.
 
- -- Dmitry Shachnev <mitya57@debian.org>  Thu, 07 Apr 2016 23:31:37 +0200
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 12 May 2016 22:05:38 +0300
 
 qbs (1.4.5+dfsg-2) unstable; urgency=medium
 

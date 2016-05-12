@@ -1,6 +1,5 @@
 usr/share/qbs/imports/qbs/BundleTools/bundle-tools.js
 usr/share/qbs/imports/qbs/DarwinTools/darwin-tools.js
-usr/share/qbs/imports/qbs/FileInfo/fileinfo.js
 usr/share/qbs/imports/qbs/ModUtils/utils.js
 usr/share/qbs/imports/qbs/PathTools/path-tools.js
 usr/share/qbs/imports/qbs/Probes/AndroidNdkProbe.qbs
@@ -10,9 +9,12 @@ usr/share/qbs/imports/qbs/Probes/FrameworkProbe.qbs
 usr/share/qbs/imports/qbs/Probes/IncludeProbe.qbs
 usr/share/qbs/imports/qbs/Probes/JdkProbe.qbs
 usr/share/qbs/imports/qbs/Probes/NodeJsProbe.qbs
+usr/share/qbs/imports/qbs/Probes/NpmProbe.qbs
 usr/share/qbs/imports/qbs/Probes/PathProbe.qbs
 usr/share/qbs/imports/qbs/Probes/PkgConfigProbe.qbs
 usr/share/qbs/imports/qbs/Probes/TypeScriptProbe.qbs
+usr/share/qbs/imports/qbs/Probes/WiXProbe.qbs
+usr/share/qbs/imports/qbs/Probes/path-probe.js
 usr/share/qbs/imports/qbs/UnixUtils/unix-utils.js
 usr/share/qbs/imports/qbs/WindowsUtils/windows-utils.js
 usr/share/qbs/imports/qbs/base/AndroidApk.qbs
@@ -27,6 +29,7 @@ usr/share/qbs/imports/qbs/base/JavaJarFile.qbs
 usr/share/qbs/imports/qbs/base/Library.qbs
 usr/share/qbs/imports/qbs/base/LoadableModule.qbs
 usr/share/qbs/imports/qbs/base/NSISSetup.qbs
+usr/share/qbs/imports/qbs/base/NetModule.qbs
 usr/share/qbs/imports/qbs/base/NodeJSApplication.qbs
 usr/share/qbs/imports/qbs/base/QtApplication.qbs
 usr/share/qbs/imports/qbs/base/QtGuiApplication.qbs
@@ -40,6 +43,14 @@ usr/share/qbs/modules/Android/sdk/sdk.qbs
 usr/share/qbs/modules/Android/sdk/utils.js
 usr/share/qbs/modules/archiver/archiver.qbs
 usr/share/qbs/modules/bundle/BundleModule.qbs
+usr/share/qbs/modules/bundle/MacOSX-Package-Types.xcspec
+usr/share/qbs/modules/bundle/MacOSX-Product-Types.xcspec
+usr/share/qbs/modules/bundle/bundle.js
+usr/share/qbs/modules/bundle/update-specs.sh
+usr/share/qbs/modules/cli/CLIModule.qbs
+usr/share/qbs/modules/cli/cli.js
+usr/share/qbs/modules/cli/mono.qbs
+usr/share/qbs/modules/cli/windows-dotnet.qbs
 usr/share/qbs/modules/cpp/CppModule.qbs
 usr/share/qbs/modules/cpp/DarwinGCC.qbs
 usr/share/qbs/modules/cpp/GenericGCC.qbs
@@ -50,6 +61,8 @@ usr/share/qbs/modules/cpp/ios-gcc.qbs
 usr/share/qbs/modules/cpp/linux-gcc.qbs
 usr/share/qbs/modules/cpp/msvc.js
 usr/share/qbs/modules/cpp/osx-gcc.qbs
+usr/share/qbs/modules/cpp/tvos-gcc.qbs
+usr/share/qbs/modules/cpp/watchos-gcc.qbs
 usr/share/qbs/modules/cpp/windows-mingw.qbs
 usr/share/qbs/modules/cpp/windows-msvc.qbs
 usr/share/qbs/modules/ib/IBModule.qbs
@@ -66,9 +79,12 @@ usr/share/qbs/modules/java/io/qt/qbs/tools/utils/JavaCompilerScanner.java
 usr/share/qbs/modules/java/io/qt/qbs/tools/utils/NullFileObject.java
 usr/share/qbs/modules/java/utils.js
 usr/share/qbs/modules/nodejs/NodeJS.qbs
+usr/share/qbs/modules/nodejs/nodejs.js
 usr/share/qbs/modules/nsis/NSISModule.qbs
 usr/share/qbs/modules/qbs/common.qbs
 usr/share/qbs/modules/typescript/TypeScriptModule.qbs
 usr/share/qbs/modules/typescript/qbs-tsc-scan/qbs-tsc-scan.ts
 usr/share/qbs/modules/typescript/typescript.js
 usr/share/qbs/modules/wix/WiXModule.qbs
+usr/share/qbs/modules/xcode/xcode.js
+usr/share/qbs/modules/xcode/xcode.qbs

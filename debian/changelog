@@ -1,5 +1,6 @@
 qbs (1.5.0+dfsg-3) UNRELEASED; urgency=medium
 
+  * Really build-depend on qttools5-dev-tools.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Fri, 13 May 2016 10:03:25 +0300
 

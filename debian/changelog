@@ -2,6 +2,8 @@ qbs (1.5.1+dfsg-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Refresh skip_test_concurrent.diff.
+  * Drop the rules to remove empty directories in documentation, qdoc no
+    longer creates them (since Qt 5.6.1).
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sat, 18 Jun 2016 12:11:44 +0300
 

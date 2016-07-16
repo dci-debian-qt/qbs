@@ -1,3 +1,9 @@
+qbs (1.5.1+dfsg-1~bpo8+1) UNRELEASED; urgency=medium
+
+  * Upload to jessie-backports.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Jul 2016 09:29:01 -0300
+
 qbs (1.5.1+dfsg-1) unstable; urgency=medium
 
   * New upstream release.

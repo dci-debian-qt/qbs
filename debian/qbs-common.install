@@ -59,8 +59,8 @@ usr/share/qbs/modules/cpp/gcc.js
 usr/share/qbs/modules/cpp/genericunix-gcc.qbs
 usr/share/qbs/modules/cpp/ios-gcc.qbs
 usr/share/qbs/modules/cpp/linux-gcc.qbs
+usr/share/qbs/modules/cpp/macos-gcc.qbs
 usr/share/qbs/modules/cpp/msvc.js
-usr/share/qbs/modules/cpp/osx-gcc.qbs
 usr/share/qbs/modules/cpp/tvos-gcc.qbs
 usr/share/qbs/modules/cpp/watchos-gcc.qbs
 usr/share/qbs/modules/cpp/windows-mingw.qbs

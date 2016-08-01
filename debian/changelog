@@ -4,6 +4,7 @@ qbs (1.5.2+dfsg-1) UNRELEASED; urgency=medium
   * Remove /usr/include from INCLUDEPATH list of installed
     .pri file. Adding this default included path causes FTBFS
     for software using qbs with GCC 6 (fix_ftbfs_gcc6.diff)
+    (closes: #831182)
 
   [ Dmitry Shachnev ]
   * New upstream release.

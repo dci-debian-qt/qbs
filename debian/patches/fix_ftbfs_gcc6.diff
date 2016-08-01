@@ -1,3 +1,11 @@
+Description: Having explicit INCLUDEPATH to system default include
+ headers (and QBS is installed under /usr/include/qbs) results in
+ wrong order of -isystem parameters to gcc. This then causes GCC
+ not to be able to find its own header files.
+Author: Adam Majer <adamm@zombino.com>
+Forwarded: not-needed
+Last-Update: 2016-07-31
+
 Index: qbs/src/lib/corelib/use_installed_corelib.pri
 ===================================================================
 --- qbs.orig/src/lib/corelib/use_installed_corelib.pri

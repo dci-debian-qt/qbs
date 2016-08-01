@@ -1,6 +1,5 @@
 skip_test_homedirectory.diff
 remove_rpaths.diff
 disable_tests_qtscript.diff
-kfreebsd.diff
 skip_test_concurrent.diff
 fix_ftbfs_gcc6.diff

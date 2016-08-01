@@ -1,10 +1,10 @@
 Document: qbs-doc-html
-Title: QBS Documentation
+Title: Qbs Documentation
 Author: The Qt Company Ltd.
-Abstract: Documentation of the Qt Build Suite
- Qt Build Suite (QBS) is a tool that helps simplify the build process for
- developing projects across multiple platforms. QBS can be used for any
- software project, whether it is written in Qt or not.
+Abstract: Documentation of Qbs
+ Qbs is a tool that helps simplify the build process for developing projects
+ across multiple platforms. Qbs can be used for any software project, regardless
+ of programming language, toolkit, or libraries used.
 Section: Programming
 
 Format: HTML

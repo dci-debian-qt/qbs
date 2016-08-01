@@ -8,6 +8,7 @@ qbs (1.5.2+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Drop kfreebsd.diff, a similar patch was applied upstream.
+  * Avoid using the Qt Build Suite term, following upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jul 2016 22:39:33 +0200
 

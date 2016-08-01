@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 9.20160114~),
                qttools5-dev-tools
 Build-Depends-Indep: libqt5sql5-sqlite
 Standards-Version: 3.9.8
-Homepage: http://wiki.qt.io/Qt_Build_Suite
+Homepage: https://wiki.qt.io/Qbs
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qbs.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qbs.git
 
@@ -23,44 +23,44 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: qbs-common, ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtcreator (<< 3.2.1+dfsg-8~)
 Replaces: qtcreator (<< 3.2.1+dfsg-8~)
-Description: Qt Build Suite
+Description: Qbs build tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt Build Suite, a cross-platform build tool.
+ This package contains Qbs, a cross-platform build tool.
 
 Package: qbs-common
 Architecture: all
 Depends: ${misc:Depends}
 Breaks: qbs (<< 1.4.3+dfsg-2~)
 Replaces: qbs (<< 1.4.3+dfsg-2~)
-Description: Qt Build Suite static files
+Description: Qbs static files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt Build Suite shared static files.
+ This package contains Qbs shared static files.
 
 Package: libqbscore1
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt Build Suite core library
+Description: Qbs core library
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt Build Suite core shared library.
+ This package contains Qbs core shared library.
 
 Package: libqbsqtprofilesetup1
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt Build Suite profile setup library
+Description: Qbs profile setup library
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt Build Suite profile setup shared library.
+ This package contains Qbs profile setup shared library.
 
 Package: qbs-dev
 Architecture: any
@@ -69,38 +69,38 @@ Depends: libqbscore1 (= ${binary:Version}),
          libqbsqtprofilesetup1 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt Build Suite development files
+Description: Qbs development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains headers and development files for Qt Build Suite.
+ This package contains headers and development files for Qbs.
 
 Package: qbs-examples
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
-Description: Qt Build Suite examples
+Description: Qbs examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the example source projects for the Qt Build Suite.
+ This package contains the example source projects for Qbs.
 
 Package: qbs-doc
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
-Description: Qt Build Suite documentation
+Description: Qbs documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the documentation for the Qt Build Suite.
+ This package contains the documentation for Qbs.
 
 Package: qbs-doc-html
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
-Description: Qt Build Suite HTML documentation
+Description: Qbs HTML documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the HTML documentation for the Qt Build Suite.
+ This package contains the HTML documentation for Qbs.

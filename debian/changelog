@@ -2,6 +2,7 @@ qbs (1.6.0+dfsg-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Set $HOME to a temporary location when running tests.
+  * Drop skip_test_homedirectory.diff, no longer needed.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sat, 03 Sep 2016 14:43:46 +0300
 

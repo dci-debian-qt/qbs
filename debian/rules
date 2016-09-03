@@ -4,7 +4,7 @@
 #export DH_VERBOSE=1
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
-CONFIG_DIR = $(CURDIR)/debian/config
+TMP_HOME_DIR = $(CURDIR)/debian/home
 
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
@@ -16,7 +16,7 @@ export QT_SELECT := qt5
 
 override_dh_auto_clean:
 	dh_auto_clean
-	rm -rfv doc/html $(CONFIG_DIR) tests/auto/*/testWorkDir lib
+	rm -rfv doc/html $(TMP_HOME_DIR) tests/auto/*/testWorkDir lib
 	rm -fv doc/qbs.qch bin/qbs* bin/tst*
 	find . -type f -name .gitignore -delete -print
 
@@ -40,10 +40,9 @@ override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp sub-static-pro-install_subtargets
 
 override_dh_auto_test-arch:
-	mkdir -p $(CONFIG_DIR)/QtProject
 	set -ex; \
 		export LD_LIBRARY_PATH=$(CURDIR)/lib/${DEB_HOST_MULTIARCH}:$$LD_LIBRARY_PATH; \
-		export XDG_CONFIG_HOME=$(CONFIG_DIR); \
+		export HOME=$(TMP_HOME_DIR); \
 		$(CURDIR)/bin/qbs-setup-toolchains --detect; \
 		$(CURDIR)/bin/qbs-setup-qt /usr/bin/qmake qbs_autotests; \
 		[ -n "`$(CURDIR)/bin/qbs-config --list profiles.qbs_autotests.baseProfile`" ] || \

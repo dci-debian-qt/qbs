@@ -5,7 +5,7 @@ qbs (1.6.0+dfsg-1) UNRELEASED; urgency=medium
   * Drop skip_test_homedirectory.diff, no longer needed.
   * Refresh other patches.
   * Update install files for the new release.
-  * Update debian/libqbscore1.symbols from amd64 build log.
+  * Update debian/libqbscore1.symbols from amd64 and i386 build logs.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sat, 03 Sep 2016 14:43:46 +0300
 

@@ -1,3 +1,9 @@
+qbs (1.6.0+dfsg-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 03 Sep 2016 14:43:46 +0300
+
 qbs (1.5.2+dfsg-1) unstable; urgency=medium
 
   [ Adam Majer ]

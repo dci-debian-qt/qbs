@@ -1,6 +1,7 @@
-qbs (1.6.0+dfsg-2) UNRELEASED; urgency=medium
+qbs (1.6.0+dfsg-2) unstable; urgency=medium
 
   * Update debian/libqbscore1.symbols from buildds’ logs.
+  * Upload to unstable.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Wed, 07 Sep 2016 12:04:38 +0300
 

@@ -23,7 +23,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: qbs-common, ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtcreator (<< 3.2.1+dfsg-8~)
 Replaces: qtcreator (<< 3.2.1+dfsg-8~)
-Description: a cross-platform build tool
+Description: cross-platform build tool from Qt
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .

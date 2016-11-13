@@ -1,6 +1,7 @@
 qbs (1.6.1+dfsg-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Refresh skip_test_concurrent.diff.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sun, 13 Nov 2016 19:25:30 +0300
 

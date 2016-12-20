@@ -8,6 +8,7 @@ usr/share/qbs/imports/qbs/Probes/BinaryProbe.qbs
 usr/share/qbs/imports/qbs/Probes/FrameworkProbe.qbs
 usr/share/qbs/imports/qbs/Probes/GccProbe.qbs
 usr/share/qbs/imports/qbs/Probes/IncludeProbe.qbs
+usr/share/qbs/imports/qbs/Probes/InnoSetupProbe.qbs
 usr/share/qbs/imports/qbs/Probes/JdkProbe.qbs
 usr/share/qbs/imports/qbs/Probes/MsvcProbe.qbs
 usr/share/qbs/imports/qbs/Probes/NodeJsProbe.qbs
@@ -25,6 +26,7 @@ usr/share/qbs/imports/qbs/base/ApplicationExtension.qbs
 usr/share/qbs/imports/qbs/base/AutotestRunner.qbs
 usr/share/qbs/imports/qbs/base/CppApplication.qbs
 usr/share/qbs/imports/qbs/base/DynamicLibrary.qbs
+usr/share/qbs/imports/qbs/base/InnoSetup.qbs
 usr/share/qbs/imports/qbs/base/InstallPackage.qbs
 usr/share/qbs/imports/qbs/base/JavaClassCollection.qbs
 usr/share/qbs/imports/qbs/base/JavaJarFile.qbs
@@ -70,6 +72,7 @@ usr/share/qbs/modules/cpp/windows-mingw.qbs
 usr/share/qbs/modules/cpp/windows-msvc.qbs
 usr/share/qbs/modules/ib/IBModule.qbs
 usr/share/qbs/modules/ib/ib.js
+usr/share/qbs/modules/innosetup/InnoSetupModule.qbs
 usr/share/qbs/modules/java/JavaModule.qbs
 usr/share/qbs/modules/java/io/qt/qbs/Artifact.java
 usr/share/qbs/modules/java/io/qt/qbs/ArtifactListJsonWriter.java

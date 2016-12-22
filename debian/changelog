@@ -4,6 +4,9 @@ qbs (1.7.0+dfsg-1) UNRELEASED; urgency=medium
   * Refresh and rebase the patches for the new release.
   * Add three new files to debian/qbs-common.install.
   * Update symbols files from the current amd64 build log.
+  * Rename the library packages according to upstream SONAME change:
+    - libqbscore1 → libqbscore1.7;
+    - libqbsqtprofilesetup1 → libqbsqtprofilesetup1.7.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 20 Dec 2016 15:33:48 +0300
 

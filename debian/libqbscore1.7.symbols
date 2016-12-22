@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 1.7.0 amd64
-libqbscore.so.1 libqbscore1 #MINVER#
+libqbscore.so.1.7 libqbscore1.7 #MINVER#
  _ZN3qbs10InstallJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs10InstallJob11qt_metacastEPKc@Base 1.2.1
  _ZN3qbs10InstallJob16staticMetaObjectE@Base 1.2.1

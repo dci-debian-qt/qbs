@@ -67,8 +67,7 @@ Architecture: any
 Section: libdevel
 Depends: libqbscore1.7 (= ${binary:Version}),
          libqbsqtprofilesetup1.7 (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
+         ${misc:Depends}
 Description: Qbs development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

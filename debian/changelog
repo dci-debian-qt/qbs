@@ -1,3 +1,8 @@
+qbs (1.7.0+dfsg-3) UNRELEASED; urgency=medium
+
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 04 Jan 2017 22:06:30 +0300
+
 qbs (1.7.0+dfsg-2) unstable; urgency=medium
 
   * Drop ${shlibs:Depends} from qbs-dev, it does not have any binary code.

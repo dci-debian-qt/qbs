@@ -1,5 +1,6 @@
 qbs (1.7.0+dfsg-3) UNRELEASED; urgency=medium
 
+  * Fix the arch:all build by passing -f to rm command.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Wed, 04 Jan 2017 22:06:30 +0300
 

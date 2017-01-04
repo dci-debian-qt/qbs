@@ -1,0 +1,35 @@
+Description: fix race condition in qmake build
+Origin: https://codereview.qt-project.org/181319
+Bug: https://bugreports.qt.io/browse/QBS-1091
+Last-Update: 2017-01-04
+
+--- a/tests/auto/blackbox/blackbox-clangdb.pro
++++ b/tests/auto/blackbox/blackbox-clangdb.pro
+@@ -2,6 +2,7 @@
+ 
+ HEADERS = tst_blackboxbase.h tst_clangdb.h
+ SOURCES = tst_blackboxbase.cpp tst_clangdb.cpp
++OBJECTS_DIR = clangdb
+ 
+ include(../auto.pri)
+ 
+--- a/tests/auto/blackbox/blackbox-java.pro
++++ b/tests/auto/blackbox/blackbox-java.pro
+@@ -2,6 +2,7 @@
+ 
+ HEADERS = tst_blackboxjava.h tst_blackboxbase.h
+ SOURCES = tst_blackboxjava.cpp tst_blackboxbase.cpp
++OBJECTS_DIR = java
+ 
+ include(../auto.pri)
+ 
+--- a/tests/auto/blackbox/blackbox.pro
++++ b/tests/auto/blackbox/blackbox.pro
+@@ -2,6 +2,7 @@
+ 
+ HEADERS = tst_blackbox.h tst_blackboxbase.h
+ SOURCES = tst_blackbox.cpp tst_blackboxbase.cpp
++OBJECTS_DIR = generic
+ 
+ include(../auto.pri)
+ 

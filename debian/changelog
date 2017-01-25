@@ -1,3 +1,11 @@
+qbs (1.7.0+dfsg-4) UNRELEASED; urgency=medium
+
+  * Backport upstream patch to make documentation install dir configurable
+    (qmake_documentation.diff).
+  * Install the documentation into correct location (closes: #795829).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 25 Jan 2017 12:01:02 +0300
+
 qbs (1.7.0+dfsg-3) unstable; urgency=medium
 
   * Fix the arch:all build by passing -f to rm command.

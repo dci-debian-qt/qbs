@@ -5,7 +5,7 @@ Last-Update: 2016-03-20
 
 --- a/tests/auto/blackbox/tst_blackbox.cpp
 +++ b/tests/auto/blackbox/tst_blackbox.cpp
-@@ -967,6 +967,7 @@
+@@ -1029,6 +1029,7 @@
  
  void TestBlackbox::concurrentExecutor()
  {

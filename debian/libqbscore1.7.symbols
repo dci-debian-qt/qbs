@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.7.0 amd64
+# SymbolsHelper-Confirmed: 1.7.2 amd64
 libqbscore.so.1.7 libqbscore1.7 #MINVER#
  _ZN3qbs10InstallJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs10InstallJob11qt_metacastEPKc@Base 1.2.1
@@ -189,7 +189,7 @@ libqbscore.so.1.7 libqbscore1.7 #MINVER#
  _ZN3qbs16ProjectGenerator11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.7.0
  _ZN3qbs16ProjectGenerator11qt_metacastEPKc@Base 1.7.0
  _ZN3qbs16ProjectGenerator16staticMetaObjectE@Base 1.7.0
- _ZN3qbs16ProjectGenerator8generateERK5QListINS_7ProjectEERKS1_I4QMapI7QString8QVariantEERKNS_14InstallOptionsE@Base 1.7.0
+ _ZN3qbs16ProjectGenerator8generateERK5QListINS_7ProjectEERKS1_I4QMapI7QString8QVariantEERKNS_14InstallOptionsERKS7_@Base 1.7.2
  _ZN3qbs16ProjectGeneratorC1Ev@Base 1.7.0
  _ZN3qbs16ProjectGeneratorC2Ev@Base 1.7.0
  _ZN3qbs16ProjectGeneratorD0Ev@Base 1.7.0
@@ -237,6 +237,7 @@ libqbscore.so.1.7 libqbscore1.7 #MINVER#
  _ZN3qbs23ProjectGeneratorManagerD2Ev@Base 1.4.0
  _ZN3qbs23commandEchoModeFromNameERK7QString@Base 1.4.0
  _ZN3qbs25allCommandEchoModeStringsEv@Base 1.4.0
+ _ZN3qbs27canonicalTargetArchitectureERK7QStringS2_S2_S2_@Base 1.7.2
  _ZN3qbs29representationToSettingsValueERK7QString@Base 1.4.0
  _ZN3qbs29settingsValueToRepresentationERK8QVariant@Base 1.4.0
  _ZN3qbs7Profile13removeProfileEv@Base 1.2.1
@@ -628,6 +629,7 @@ libqbscore.so.1.7 libqbscore1.7 #MINVER#
  _ZNK3qbs15SetupProjectJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs15SetupProjectJob7projectEv@Base 1.2.1
  _ZNK3qbs16ProjectGenerator10metaObjectEv@Base 1.7.0
+ _ZNK3qbs16ProjectGenerator14qbsSettingsDirEv@Base 1.7.2
  _ZNK3qbs16ProjectGenerator18buildConfigurationERKNS_7ProjectE@Base 1.7.0
  _ZNK3qbs16ProjectGenerator19buildConfigurationsEv@Base 1.7.0
  _ZNK3qbs16ProjectGenerator21qbsExecutableFilePathEv@Base 1.7.0

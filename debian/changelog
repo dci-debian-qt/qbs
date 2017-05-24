@@ -1,11 +1,11 @@
-qbs (1.7.2+dfsg-1) UNRELEASED; urgency=medium
+qbs (1.7.2+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
   * Drop skip_test_concurrent.diff, applied upstream.
   * Update debian/copyright.
   * Update debian/libqbscore1.7.symbols from the current build log.
 
- -- Dmitry Shachnev <mitya57@debian.org>  Tue, 23 May 2017 11:07:24 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 24 May 2017 12:39:34 +0300
 
 qbs (1.7.0+dfsg-4) unstable; urgency=medium
 

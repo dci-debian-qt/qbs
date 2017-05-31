@@ -31,3 +31,5 @@ usr/include/qbs/use_installed_corelib.pri
 usr/include/qbs/use_installed_qtprofilesetup.pri
 usr/lib/*/libqbscore.so
 usr/lib/*/libqbsqtprofilesetup.so
+usr/lib/*/libqbscore.prl
+usr/lib/*/libqbsqtprofilesetup.prl

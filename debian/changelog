@@ -1,3 +1,9 @@
+qbs (1.8.0-0neon) UNRELEASED; urgency=medium
+
+  * New release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 31 May 2017 10:32:51 +0100
+
 qbs (1.7.0+dfsg-4) unstable; urgency=medium
 
   * Backport upstream patch to make documentation install dir configurable

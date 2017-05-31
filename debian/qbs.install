@@ -7,3 +7,5 @@ usr/bin/qbs-setup-qt
 usr/bin/qbs-setup-toolchains
 usr/lib/*/qbs/plugins/libqbs_cpp_scanner.so
 usr/lib/*/qbs/plugins/libqbs_qt_scanner.so
+usr/bin/qbs-create-project
+usr/lib/*/libexec/qbs/qbs_processlauncher

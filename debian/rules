@@ -40,7 +40,6 @@ override_dh_auto_build-indep:
 override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp sub-static-pro-install_subtargets
-	cd debian/tmp${QT_INSTALL_DOCS} && mv html qbs
 
 override_dh_auto_test-arch:
 	set -ex; \
@@ -55,6 +54,8 @@ override_dh_auto_test-arch:
 override_dh_auto_test-indep:
 
 override_dh_install:
+	mkdir -p debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libexec/qbs/
+	-mv debian/tmp/usr/libexec/qbs/qbs_processlauncher debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libexec/qbs/qbs_processlauncher
 	rm -fv debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libqbscore.so.1
 	rm -fv debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libqbsqtprofilesetup.so.1
 	dh_install --fail-missing

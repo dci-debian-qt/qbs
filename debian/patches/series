@@ -2,6 +2,6 @@ remove_rpaths.diff
 disable_tests_qtscript.diff
 skip_test_concurrent.diff
 fix_ftbfs_gcc6.diff
-fix_race_condition.diff
+#fix_race_condition.diff
 kfreebsd_soname.diff
-qmake_documentation.diff
+#qmake_documentation.diff

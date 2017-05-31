@@ -1,11 +1,11 @@
 usr/bin/qbs
 usr/bin/qbs-config
 usr/bin/qbs-config-ui
+usr/bin/qbs-create-project
 usr/bin/qbs-qmltypes
 usr/bin/qbs-setup-android
 usr/bin/qbs-setup-qt
 usr/bin/qbs-setup-toolchains
+usr/lib/*/libexec/qbs/qbs_processlauncher
 usr/lib/*/qbs/plugins/libqbs_cpp_scanner.so
 usr/lib/*/qbs/plugins/libqbs_qt_scanner.so
-usr/bin/qbs-create-project
-usr/lib/*/libexec/qbs/qbs_processlauncher

@@ -10,7 +10,6 @@ export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags -
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
-QT_INSTALL_DOCS := $(shell qmake -query QT_INSTALL_DOCS)
 
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper
@@ -31,16 +30,14 @@ override_dh_auto_configure:
 		QMAKE_CXXFLAGS+="${CXXFLAGS} ${CPPFLAGS}" \
 		QMAKE_LFLAGS+="${LDFLAGS}" \
 		QBS_INSTALL_PREFIX=/usr \
-		QBS_DOCS_INSTALL_DIR=${QT_INSTALL_DOCS} \
 		QBS_LIBRARY_DIRNAME=lib/${DEB_HOST_MULTIARCH}
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
 
 override_dh_auto_install-indep:
-	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
+	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_inst_html_docs
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp sub-static-pro-install_subtargets
-	cd debian/tmp${QT_INSTALL_DOCS} && mv html qbs
 
 override_dh_auto_test-arch:
 	set -ex; \

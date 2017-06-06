@@ -29,5 +29,7 @@ usr/include/qbs/tools/setupprojectparameters.h
 usr/include/qbs/tools/toolchains.h
 usr/include/qbs/use_installed_corelib.pri
 usr/include/qbs/use_installed_qtprofilesetup.pri
+usr/lib/*/libqbscore.prl
 usr/lib/*/libqbscore.so
+usr/lib/*/libqbsqtprofilesetup.prl
 usr/lib/*/libqbsqtprofilesetup.so

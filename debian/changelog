@@ -5,6 +5,7 @@ qbs (1.8.0+dfsg-1) UNRELEASED; urgency=medium
   * Refresh kfreebsd_soname.diff and skip_test_concurrent.diff.
   * Bump qtbase5-dev build-dependency to 5.6.0, following upstream.
   * Improve package descriptions, thanks Joerg Bornemann (closes: #863874).
+  * Update debian/copyright.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 06 Jun 2017 13:58:02 +0300
 

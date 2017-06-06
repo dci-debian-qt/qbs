@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.8.0 amd64
+# SymbolsHelper-Confirmed: 1.8.0 amd64 i386
 libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbs10InstallJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs10InstallJob11qt_metacastEPKc@Base 1.2.1
@@ -778,7 +778,7 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZNK3qbs9GroupData9isEnabledEv@Base 1.2.1
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE13_M_insert_auxIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 1.8.0
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE13_M_insert_auxIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 1.8.0
- (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE17_M_default_appendEm@Base 1.8.0
+ (optional=templinst|subst)_ZNSt6vectorI7QStringSaIS0_EE17_M_default_appendE{size_t}@Base 1.8.0
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_@Base 1.8.0
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE6insertEN9__gnu_cxx17__normal_iteratorIPKS0_S2_EERS5_@Base 1.8.0
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS0_S2_EE@Base 1.8.0
@@ -794,14 +794,14 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  (optional=templinst)_ZNSt6vectorIN3qbs8Internal23VisualStudioVersionInfoESaIS2_EE13_M_insert_auxIJRKS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 1.8.0
  (optional=templinst)_ZNSt6vectorIN3qbs8Internal8ItemTypeESaIS2_EE13_M_insert_auxIJRKS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 1.8.0
  (optional=templinst)_ZNSt6vectorIN3qbs8Internal8ItemTypeESaIS2_EEaSERKS4_@Base 1.8.0
- (optional=templinst)_ZNSt6vectorIS_IiSaIiEESaIS1_EE17_M_default_appendEm@Base 1.8.0
+ (optional=templinst|subst)_ZNSt6vectorIS_IiSaIiEESaIS1_EE17_M_default_appendE{size_t}@Base 1.8.0
  (optional=templinst)_ZNSt6vectorISt4pairI7QStringS1_ESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 1.8.0
  (optional=templinst)_ZNSt6vectorISt4pairI7QStringS1_ESaIS2_EED1Ev@Base 1.8.0
  (optional=templinst)_ZNSt6vectorISt4pairI7QStringS1_ESaIS2_EED2Ev@Base 1.8.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE13_M_insert_auxIJRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Base 1.8.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 1.8.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE6insertEN9__gnu_cxx17__normal_iteratorIPKiS1_EERS4_@Base 1.8.0
- (optional=templinst)_ZNSt6vectorIiSaIiEE7reserveEm@Base 1.8.0
+ (optional=templinst|subst)_ZNSt6vectorIiSaIiEE7reserveE{size_t}@Base 1.8.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPiS1_EE@Base 1.8.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPiS1_EES5_@Base 1.8.0
  (optional=templinst)_ZNSt6vectorIiSaIiEEaSERKS1_@Base 1.8.0

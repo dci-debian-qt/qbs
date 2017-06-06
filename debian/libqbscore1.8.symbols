@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.7.2 amd64
+# SymbolsHelper-Confirmed: 1.8.0 amd64
 libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbs10InstallJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs10InstallJob11qt_metacastEPKc@Base 1.2.1
@@ -268,9 +268,11 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbs8BuildJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs8BuildJob11qt_metacastEPKc@Base 1.2.1
  _ZN3qbs8BuildJob16staticMetaObjectE@Base 1.2.1
+ _ZN3qbs8BuildJob19handleLauncherErrorERKNS_9ErrorInfoE@Base 1.8.0
  _ZN3qbs8BuildJob19reportProcessResultERKNS_13ProcessResultE@Base 1.2.1
  _ZN3qbs8BuildJob24reportCommandDescriptionERK7QStringS3_@Base 1.2.1
  _ZN3qbs8BuildJob5buildERK14QSharedPointerINS_8Internal15TopLevelProjectEERK5QListIS1_INS2_15ResolvedProductEEERKNS_12BuildOptionsE@Base 1.2.1
+ _ZN3qbs8BuildJob6finishEv@Base 1.8.0
  _ZN3qbs8BuildJobC1ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs8BuildJobC2ERKNS_8Internal6LoggerEP7QObject@Base 1.2.1
  _ZN3qbs8CleanJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
@@ -303,11 +305,13 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbs8Internal12TestLanguage11qualifiedIdEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage12basePropertyEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage12defaultValueEv@Base 1.4.2
+ _ZN3qbs8Internal12TestLanguage12delayedErrorEv@Base 1.8.0
  _ZN3qbs8Internal12TestLanguage12idUniquenessEv@Base 1.7.0
  _ZN3qbs8Internal12TestLanguage12initTestCaseEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage12jsExtensionsEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage12modules_dataEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage12outerInGroupEv@Base 1.4.1
+ _ZN3qbs8Internal12TestLanguage13chainedProbesEv@Base 1.8.0
  _ZN3qbs8Internal12TestLanguage13fileTags_dataEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage13homeDirectoryEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage13itemPrototypeEv@Base 1.4.1
@@ -328,6 +332,7 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbs8Internal12TestLanguage16relaxedErrorModeEv@Base 1.5.0
  _ZN3qbs8Internal12TestLanguage16staticMetaObjectE@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage17defaultValue_dataEv@Base 1.4.2
+ _ZN3qbs8Internal12TestLanguage17delayedError_dataEv@Base 1.8.0
  _ZN3qbs8Internal12TestLanguage17derivedSubProjectEv@Base 1.5.0
  _ZN3qbs8Internal12TestLanguage17productConditionsEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage17rfc1034IdentifierEv@Base 1.4.1
@@ -347,6 +352,7 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbs8Internal12TestLanguage21propertiesBlocks_dataEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage21relaxedErrorMode_dataEv@Base 1.5.0
  _ZN3qbs8Internal12TestLanguage22propertiesBlockInGroupEv@Base 1.4.3
+ _ZN3qbs8Internal12TestLanguage22propertiesItemInModuleEv@Base 1.8.0
  _ZN3qbs8Internal12TestLanguage23dependencyOnAllProfilesEv@Base 1.4.1
  _ZN3qbs8Internal12TestLanguage24modulePropertiesInGroupsEv@Base 1.6.0
  _ZN3qbs8Internal12TestLanguage24nonRequiredProducts_dataEv@Base 1.5.0
@@ -389,15 +395,17 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbs8Internal17copyFileRecursionERK7QStringS3_bbPS1_@Base 1.5.0
  _ZN3qbs8Internal19throwAssertLocationEPKcS2_i@Base 1.2.1
  _ZN3qbs8Internal19writeAssertLocationEPKcS2_i@Base 1.2.1
- _ZN3qbs8Internal21VsEnvironmentDetector14parseBatOutputERK10QByteArray7QVectorIPNS0_4MSVCEE@Base 1.7.0
- _ZN3qbs8Internal21VsEnvironmentDetector14startDetectionERK7QVectorIPNS0_4MSVCEE@Base 1.7.0
- _ZN3qbs8Internal21VsEnvironmentDetector5startE7QVectorIPNS0_4MSVCEE@Base 1.7.0
+ _ZN3qbs8Internal21VsEnvironmentDetector14parseBatOutputERK10QByteArraySt6vectorIPNS0_4MSVCESaIS7_EE@Base 1.8.0
+ _ZN3qbs8Internal21VsEnvironmentDetector14startDetectionERKSt6vectorIPNS0_4MSVCESaIS4_EE@Base 1.8.0
  _ZN3qbs8Internal21VsEnvironmentDetector5startEPNS0_4MSVCE@Base 1.7.0
+ _ZN3qbs8Internal21VsEnvironmentDetector5startESt6vectorIPNS0_4MSVCESaIS4_EE@Base 1.8.0
  _ZN3qbs8Internal21VsEnvironmentDetectorC1Ev@Base 1.7.0
  _ZN3qbs8Internal21VsEnvironmentDetectorC2Ev@Base 1.7.0
  _ZN3qbs8Internal23VisualStudioVersionInfo13knownVersionsEv@Base 1.5.0
  _ZN3qbs8Internal23VisualStudioVersionInfoC1ERKNS0_7VersionE@Base 1.5.0
+ _ZN3qbs8Internal23VisualStudioVersionInfoC1Ev@Base 1.8.0
  _ZN3qbs8Internal23VisualStudioVersionInfoC2ERKNS0_7VersionE@Base 1.5.0
+ _ZN3qbs8Internal23VisualStudioVersionInfoC2Ev@Base 1.8.0
  _ZN3qbs8Internal27removeDirectoryWithContentsERK7QStringPS1_@Base 1.2.1
  _ZN3qbs8Internal4MSVC4initEv@Base 1.7.0
  _ZN3qbs8Internal6Logger12printWarningERKNS_9ErrorInfoE@Base 1.7.0
@@ -424,19 +432,38 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbs8Internal9LogWriterD1Ev@Base 1.2.1
  _ZN3qbs8Internal9LogWriterD2Ev@Base 1.2.1
  _ZN3qbs8Internal9LogWriteraSERKS1_@Base 1.2.1
+ _ZN3qbs8Internal9TestTools10set_insertEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools10set_removeEv@Base 1.8.0
  _ZN3qbs8Internal9TestTools11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.4.1
  _ZN3qbs8Internal9TestTools11qt_metacastEPKc@Base 1.4.1
+ _ZN3qbs8Internal9TestTools11set_reserveEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools12set_capacityEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools12set_containsEv@Base 1.8.0
  _ZN3qbs8Internal9TestTools12testFileInfoEv@Base 1.4.1
  _ZN3qbs8Internal9TestTools12testProfilesEv@Base 1.4.1
  _ZN3qbs8Internal9TestTools13fileCaseCheckEv@Base 1.4.1
+ _ZN3qbs8Internal9TestTools14set_intersectsEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools15set_containsSetEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools15set_operator_eqEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools15set_stlIteratorEv@Base 1.8.0
  _ZN3qbs8Internal9TestTools16staticMetaObjectE@Base 1.4.1
+ _ZN3qbs8Internal9TestTools17set_setOperationsEv@Base 1.8.0
  _ZN3qbs8Internal9TestTools17setupSettingsDir1Ev@Base 1.5.0
  _ZN3qbs8Internal9TestTools17setupSettingsDir2Ev@Base 1.5.0
  _ZN3qbs8Internal9TestTools17setupSettingsDir3Ev@Base 1.5.0
+ _ZN3qbs8Internal9TestTools19set_initializerListEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools20set_reverseIteratorsEv@Base 1.8.0
  _ZN3qbs8Internal9TestTools20testProcessNameByPidEv@Base 1.4.1
  _ZN3qbs8Internal9TestTools21testSettingsMigrationEv@Base 1.5.0
+ _ZN3qbs8Internal9TestTools22set_stlMutableIteratorEv@Base 1.8.0
  _ZN3qbs8Internal9TestTools22testBuildConfigMergingEv@Base 1.4.1
  _ZN3qbs8Internal9TestTools26testSettingsMigration_dataEv@Base 1.5.0
+ _ZN3qbs8Internal9TestTools38set_makeSureTheComfortFunctionsCompileEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools7set_endEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools8set_sizeEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools8set_swapEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools9set_beginEv@Base 1.8.0
+ _ZN3qbs8Internal9TestTools9set_clearEv@Base 1.8.0
  _ZN3qbs8Internal9TestToolsC1EPNS_8SettingsE@Base 1.4.1
  _ZN3qbs8Internal9TestToolsC2EPNS_8SettingsE@Base 1.4.1
  _ZN3qbs8Internal9TestToolsD0Ev@Base 1.5.0
@@ -445,10 +472,10 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbs8InternallsENS0_9LogWriterEPKc@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterERK10QByteArray@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterERK11QStringList@Base 1.2.1
- _ZN3qbs8InternallsENS0_9LogWriterERK4QSetI7QStringE@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterERK7QString@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterERK8QVariant@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterERKNS0_10MessageTagE@Base 1.2.1
+ _ZN3qbs8InternallsENS0_9LogWriterERKNS0_3SetI7QStringEE@Base 1.8.0
  _ZN3qbs8InternallsENS0_9LogWriterEb@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterEi@Base 1.2.1
  _ZN3qbs8InternallsENS0_9LogWriterEx@Base 1.2.1
@@ -465,6 +492,7 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbs9ErrorInfo4loadERNS_8Internal14PersistentPoolE@Base 1.7.0
  _ZN3qbs9ErrorInfo5clearEv@Base 1.2.1
  _ZN3qbs9ErrorInfo6appendERK7QStringRKNS_12CodeLocationE@Base 1.2.1
+ _ZN3qbs9ErrorInfo6appendERKNS_9ErrorItemE@Base 1.8.0
  _ZN3qbs9ErrorInfo7prependERK7QStringRKNS_12CodeLocationE@Base 1.2.1
  _ZN3qbs9ErrorInfoC1ERK7QStringRK11QStringList@Base 1.5.0
  _ZN3qbs9ErrorInfoC1ERK7QStringRKNS_12CodeLocationEb@Base 1.2.1
@@ -502,13 +530,13 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZN3qbsltERKNS_11ProductDataES2_@Base 1.2.1
  _ZN3qbsltERKNS_11ProjectDataES2_@Base 1.2.1
  _ZN3qbsltERKNS_12ArtifactDataES2_@Base 1.7.0
+ _ZN3qbsltERKNS_12CodeLocationES2_@Base 1.8.0
  _ZN3qbsltERKNS_9GroupDataES2_@Base 1.2.1
  _ZN3qbsneERKNS_11ProductDataES2_@Base 1.2.1
  _ZN3qbsneERKNS_11ProjectDataES2_@Base 1.2.1
  _ZN3qbsneERKNS_12ArtifactDataES2_@Base 1.7.0
  _ZN3qbsneERKNS_12CodeLocationES2_@Base 1.2.1
  _ZN3qbsneERKNS_9GroupDataES2_@Base 1.2.1
- (optional=inline)_ZN9QHashData9hasShrunkEv@Base 1.3.1
  _ZNK3qbs10InstallJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs11AbstractJob10metaObjectEv@Base 1.2.1
  _ZNK3qbs11AbstractJob5errorEv@Base 1.2.1
@@ -695,7 +723,7 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZNK3qbs8Internal11CommandLine13toCommandLineENS0_10HostOsInfo6HostOsE@Base 1.7.0
  _ZNK3qbs8Internal12TestLanguage10metaObjectEv@Base 1.4.1
  _ZNK3qbs8Internal14TestBuildGraph10metaObjectEv@Base 1.4.1
- _ZNK3qbs8Internal21VsEnvironmentDetector14writeBatchFileEP9QIODeviceRK7QStringRK7QVectorIPNS0_4MSVCEE@Base 1.7.0
+ _ZNK3qbs8Internal21VsEnvironmentDetector14writeBatchFileEP9QIODeviceRK7QStringRKSt6vectorIPNS0_4MSVCESaIS9_EE@Base 1.8.0
  _ZNK3qbs8Internal21VsEnvironmentDetector16findVcVarsAllBatERKNS0_4MSVCE@Base 1.7.0
  _ZNK3qbs8Internal23VisualStudioVersionInfo11usesMsBuildEv@Base 1.5.0
  _ZNK3qbs8Internal23VisualStudioVersionInfo11usesVcBuildEv@Base 1.5.0
@@ -748,6 +776,37 @@ libqbscore.so.1.8 libqbscore1.8 #MINVER#
  _ZNK3qbs9GroupData7isValidEv@Base 1.2.1
  _ZNK3qbs9GroupData8locationEv@Base 1.2.1
  _ZNK3qbs9GroupData9isEnabledEv@Base 1.2.1
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE13_M_insert_auxIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE13_M_insert_auxIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE17_M_default_appendEm@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE6insertEN9__gnu_cxx17__normal_iteratorIPKS0_S2_EERS5_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS0_S2_EE@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EEC1ERKS2_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EEC2ERKS2_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EED1Ev@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EED2Ev@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EEaSERKS2_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIN3qbs8Internal11CommandLine8ArgumentESaIS3_EE19_M_emplace_back_auxIJRKS3_EEEvDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIN3qbs8Internal11CommandLine8ArgumentESaIS3_EE19_M_emplace_back_auxIJS3_EEEvDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIN3qbs8Internal11CommandLine8ArgumentESaIS3_EED1Ev@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIN3qbs8Internal11CommandLine8ArgumentESaIS3_EED2Ev@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIN3qbs8Internal23VisualStudioVersionInfoESaIS2_EE13_M_insert_auxIJRKS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIN3qbs8Internal8ItemTypeESaIS2_EE13_M_insert_auxIJRKS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIN3qbs8Internal8ItemTypeESaIS2_EEaSERKS4_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIS_IiSaIiEESaIS1_EE17_M_default_appendEm@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorISt4pairI7QStringS1_ESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorISt4pairI7QStringS1_ESaIS2_EED1Ev@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorISt4pairI7QStringS1_ESaIS2_EED2Ev@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEE13_M_insert_auxIJRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEE6insertEN9__gnu_cxx17__normal_iteratorIPKiS1_EERS4_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEE7reserveEm@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPiS1_EE@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPiS1_EES5_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEEaSERKS1_@Base 1.8.0
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE8_M_eraseEPSt13_Rb_tree_nodeIS0_E@Base 1.8.0
+ (optional=templinst)_ZSt13binary_searchIN9__gnu_cxx17__normal_iteratorIPK7QStringSt6vectorIS2_SaIS2_EEEES2_EbT_S9_RKT0_@Base 1.8.0
  (optional=templinst)_ZSt4swapIN3qbs7ProjectEENSt9enable_ifIXsrSt6__and_IJSt21is_move_constructibleIT_ESt18is_move_assignableIS5_EEE5valueEvE4typeERS5_SC_@Base 1.7.0
  (optional=templinst|arch=armel armhf i386 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt21is_move_constructibleIT_ESt18is_move_assignableIS5_EEE5valueEvE4typeERS5_SC_@Base 1.6.0
  _ZTI11QScriptable@Base 1.2.1

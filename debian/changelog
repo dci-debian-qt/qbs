@@ -11,6 +11,7 @@ qbs (1.8.0+dfsg-1) UNRELEASED; urgency=medium
   * Rename the library packages according to upstream SONAME change:
     - libqbscore1.7 → libqbscore1.8;
     - libqbsqtprofilesetup1.7 → libqbsqtprofilesetup1.8.
+  * Update the symbols files from the current build log.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 06 Jun 2017 13:58:02 +0300
 

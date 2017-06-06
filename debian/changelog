@@ -8,6 +8,9 @@ qbs (1.8.0+dfsg-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Update docs installation code for the new release.
   * Update install files for the new release.
+  * Rename the library packages according to upstream SONAME change:
+    - libqbscore1.7 → libqbscore1.8;
+    - libqbsqtprofilesetup1.7 → libqbsqtprofilesetup1.8.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 06 Jun 2017 13:58:02 +0300
 

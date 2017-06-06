@@ -23,11 +23,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: qbs-common, ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtcreator (<< 3.2.1+dfsg-8~)
 Replaces: qtcreator (<< 3.2.1+dfsg-8~)
-Description: cross-platform build tool from Qt
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains Qbs, a cross-platform build tool.
+Description: cross-platform build tool
+ Qbs is a general purpose cross-platform build tool that aims at fast and
+ correct incremental builds. It features a project description language that
+ is similar to QML.
 
 Package: qbs-common
 Architecture: all
@@ -35,8 +34,9 @@ Depends: ${misc:Depends}
 Breaks: qbs (<< 1.4.3+dfsg-2~)
 Replaces: qbs (<< 1.4.3+dfsg-2~)
 Description: Qbs static files
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
+ Qbs is a general purpose cross-platform build tool that aims at fast and
+ correct incremental builds. It features a project description language that
+ is similar to QML.
  .
  This package contains Qbs shared static files.
 
@@ -46,8 +46,9 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qbs core library
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
+ Qbs is a general purpose cross-platform build tool that aims at fast and
+ correct incremental builds. It features a project description language that
+ is similar to QML.
  .
  This package contains Qbs core shared library.
 
@@ -57,8 +58,9 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qbs profile setup library
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
+ Qbs is a general purpose cross-platform build tool that aims at fast and
+ correct incremental builds. It features a project description language that
+ is similar to QML.
  .
  This package contains Qbs profile setup shared library.
 
@@ -69,8 +71,9 @@ Depends: libqbscore1.7 (= ${binary:Version}),
          libqbsqtprofilesetup1.7 (= ${binary:Version}),
          ${misc:Depends}
 Description: Qbs development files
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
+ Qbs is a general purpose cross-platform build tool that aims at fast and
+ correct incremental builds. It features a project description language that
+ is similar to QML.
  .
  This package contains headers and development files for Qbs.
 
@@ -79,8 +82,9 @@ Architecture: all
 Section: doc
 Depends: ${misc:Depends}
 Description: examples for Qbs build tool
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
+ Qbs is a general purpose cross-platform build tool that aims at fast and
+ correct incremental builds. It features a project description language that
+ is similar to QML.
  .
  This package contains the example source projects for Qbs.
 
@@ -89,17 +93,20 @@ Architecture: all
 Section: doc
 Depends: ${misc:Depends}
 Description: Qbs documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
+ Qbs is a general purpose cross-platform build tool that aims at fast and
+ correct incremental builds. It features a project description language that
+ is similar to QML.
  .
- This package contains the documentation for Qbs.
+ This package contains the documentation for Qbs in QCH format, which can be
+ viewed using Qt Assistant from qttools5-dev-tools package.
 
 Package: qbs-doc-html
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
 Description: Qbs HTML documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
+ Qbs is a general purpose cross-platform build tool that aims at fast and
+ correct incremental builds. It features a project description language that
+ is similar to QML.
  .
  This package contains the HTML documentation for Qbs.

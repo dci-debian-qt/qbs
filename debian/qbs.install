@@ -9,3 +9,4 @@ usr/bin/qbs-setup-toolchains
 usr/lib/*/libexec/qbs/qbs_processlauncher
 usr/lib/*/qbs/plugins/libqbs_cpp_scanner.so
 usr/lib/*/qbs/plugins/libqbs_qt_scanner.so
+usr/lib/*/qbs/qbs_processlauncher

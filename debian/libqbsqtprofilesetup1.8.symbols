@@ -1,0 +1,13 @@
+# SymbolsHelper-Confirmed: 1.8.0 amd64 i386
+libqbsqtprofilesetup.so.1.8 libqbsqtprofilesetup1.8 #MINVER#
+ _ZN3qbs14setupQtProfileERK7QStringPNS_8SettingsERKNS_13QtEnvironmentE@Base 1.2.1
+ (optional=templinst|subst)_ZNSt11_Deque_baseI7QStringSaIS0_EE17_M_initialize_mapE{size_t}@Base 1.8.0
+ (optional=templinst)_ZNSt5dequeI7QStringSaIS0_EE16_M_push_back_auxIJRKS0_EEEvDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt5dequeI7QStringSaIS0_EED1Ev@Base 1.8.0
+ (optional=templinst)_ZNSt5dequeI7QStringSaIS0_EED2Ev@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE13_M_insert_auxIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE13_M_insert_auxIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EED1Ev@Base 1.8.0
+ (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EED2Ev@Base 1.8.0
+ _ZTIN3qbs9ErrorInfoE@Base 1.2.1
+ _ZTSN3qbs9ErrorInfoE@Base 1.2.1

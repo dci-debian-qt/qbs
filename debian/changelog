@@ -1,3 +1,9 @@
+qbs (1.8.1+dfsg-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 05 Jul 2017 04:08:07 -0500
+
 qbs (1.8.0+dfsg-1) experimental; urgency=medium
 
   * New upstream release.

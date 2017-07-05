@@ -8,5 +8,5 @@ Abstract: Documentation of Qbs
 Section: Programming
 
 Format: HTML
-Index: /usr/share/qt5/doc/qbs/index.html
-Files: /usr/share/qt5/doc/qbs/*
+Index: /usr/share/doc/qbs/html/index.html
+Files: /usr/share/doc/qbs/html/*

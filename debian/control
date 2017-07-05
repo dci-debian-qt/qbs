@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 9.20160114~),
                qtscript5-dev,
                qttools5-dev-tools
 Build-Depends-Indep: libqt5sql5-sqlite
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: https://wiki.qt.io/Qbs
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qbs.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qbs.git

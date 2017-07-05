@@ -1,6 +1,7 @@
 qbs (1.8.1+dfsg-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Add myself to Uploaders.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 05 Jul 2017 04:08:07 -0500
 

@@ -3,6 +3,7 @@ qbs (1.8.1+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Add myself to Uploaders.
   * Update Standards-version to 4.0.0, no changes needed.
+  * Bump debhelper compat to 10.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 05 Jul 2017 04:08:07 -0500
 

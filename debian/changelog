@@ -1,4 +1,4 @@
-qbs (1.8.1+dfsg-1) UNRELEASED; urgency=medium
+qbs (1.8.1+dfsg-1) unstable; urgency=medium
 
   * New upstream release.
   * Add myself to Uploaders.
@@ -6,6 +6,7 @@ qbs (1.8.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump debhelper compat to 10.
   * Fix doc-base-file-references-missing-file by correcting path in qbs-
     doc-html.doc-base.
+  * Upload to unstable.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 05 Jul 2017 04:08:07 -0500
 

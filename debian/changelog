@@ -1,3 +1,10 @@
+qbs (1.8.1+dfsg-3) UNRELEASED; urgency=medium
+
+  * Make sure qbs tries to find qbs_processlauncher in correct place, by
+    specifying QBS_RELATIVE_LIBEXEC_PATH (closes: #869909).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 07 Aug 2017 17:18:32 +0300
+
 qbs (1.8.1+dfsg-2) unstable; urgency=medium
 
   * Install missing tools/version.h header to fix QtCreator build.

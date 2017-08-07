@@ -31,6 +31,8 @@ override_dh_auto_configure:
 		QMAKE_LFLAGS+="${LDFLAGS}" \
 		QBS_INSTALL_PREFIX=/usr \
 		QBS_LIBEXEC_INSTALL_DIR=/usr/lib/${DEB_HOST_MULTIARCH}/qbs \
+		QBS_LIBEXEC_DESTDIR=../../../lib/${DEB_HOST_MULTIARCH}/qbs \
+		QBS_RELATIVE_LIBEXEC_PATH=../lib/${DEB_HOST_MULTIARCH}/qbs \
 		QBS_LIBRARY_DIRNAME=lib/${DEB_HOST_MULTIARCH}
 
 override_dh_auto_build-indep:

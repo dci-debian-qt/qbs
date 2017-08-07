@@ -1,4 +1,4 @@
-qbs (1.8.1+dfsg-3) UNRELEASED; urgency=medium
+qbs (1.8.1+dfsg-3) unstable; urgency=medium
 
   * Make sure qbs tries to find qbs_processlauncher in correct place, by
     specifying QBS_RELATIVE_LIBEXEC_PATH (closes: #869909).

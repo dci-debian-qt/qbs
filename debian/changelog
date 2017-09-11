@@ -1,6 +1,7 @@
 qbs (1.9.0+dfsg-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Drop install_missing_header.diff, it was coming from upstream.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Mon, 11 Sep 2017 16:36:28 +0300
 

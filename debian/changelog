@@ -1,5 +1,6 @@
 qbs (1.8.1+dfsg-4) UNRELEASED; urgency=medium
 
+  * Make libqbscore1.8 depend on qbs-common (closes: #875434).
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 12 Sep 2017 15:46:40 +0300
 

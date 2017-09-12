@@ -21,7 +21,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qbs.git
 Package: qbs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: qbs-common, ${misc:Depends}, ${shlibs:Depends}
+Depends: qbs-common (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtcreator (<< 3.2.1+dfsg-8~)
 Replaces: qtcreator (<< 3.2.1+dfsg-8~)
 Description: cross-platform build tool
@@ -45,7 +45,7 @@ Package: libqbscore1.8
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qbs-common (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: Qbs core library
  Qbs is a general purpose cross-platform build tool that aims at fast and
  correct incremental builds. It features a project description language that

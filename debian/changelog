@@ -1,3 +1,8 @@
+qbs (1.8.1+dfsg-4) UNRELEASED; urgency=medium
+
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 12 Sep 2017 15:46:40 +0300
+
 qbs (1.8.1+dfsg-3) unstable; urgency=medium
 
   * Make sure qbs tries to find qbs_processlauncher in correct place, by

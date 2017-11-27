@@ -57,8 +57,6 @@ override_dh_auto_test-arch:
 override_dh_auto_test-indep:
 
 override_dh_install:
-	mkdir -p debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libexec/qbs/
-	-mv debian/tmp/usr/libexec/qbs/qbs_processlauncher debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libexec/qbs/qbs_processlauncher
 	rm -fv debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libqbscore.so.1
 	rm -fv debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libqbsqtprofilesetup.so.1
 	dh_install --fail-missing

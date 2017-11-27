@@ -1,3 +1,12 @@
+qbs (1.9.0+dfsg-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Drop install_missing_header.diff, it was coming from upstream.
+  * Refresh and rebase other patches.
+  * Install upstream changelog.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 12 Sep 2017 16:02:55 +0300
+
 qbs (1.8.1+dfsg-4) unstable; urgency=medium
 
   * Make libqbscore1.8 depend on qbs-common (closes: #875434).

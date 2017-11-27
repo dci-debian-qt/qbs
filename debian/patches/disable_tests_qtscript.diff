@@ -14,17 +14,17 @@ Description: limit API tests to only common architectures
  API tests on non-common architectures to make the build pass.
 Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: not-needed
-Last-Update: 2016-12-20
+Last-Update: 2017-09-11
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
-@@ -11,5 +11,10 @@
-     cmdlineparser \
-     blackbox/blackbox.pro \
+@@ -13,5 +13,10 @@
+     blackbox/blackbox-apple.pro \
      blackbox/blackbox-clangdb.pro \
--    blackbox/blackbox-java.pro \
+     blackbox/blackbox-java.pro \
+-    blackbox/blackbox-qt.pro \
 -    api
-+    blackbox/blackbox-java.pro
++    blackbox/blackbox-qt.pro
 +
 +equals(QT_ARCH, i386) | equals(QT_ARCH, x86_64) | \
 +equals(QT_ARCH, arm) | equals(QT_ARCH, arm64) | \

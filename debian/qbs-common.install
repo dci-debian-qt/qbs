@@ -7,6 +7,7 @@ usr/share/qbs/imports/qbs/Probes/AndroidSdkProbe.qbs
 usr/share/qbs/imports/qbs/Probes/BinaryProbe.qbs
 usr/share/qbs/imports/qbs/Probes/FrameworkProbe.qbs
 usr/share/qbs/imports/qbs/Probes/GccProbe.qbs
+usr/share/qbs/imports/qbs/Probes/GccVersionProbe.qbs
 usr/share/qbs/imports/qbs/Probes/IncludeProbe.qbs
 usr/share/qbs/imports/qbs/Probes/InnoSetupProbe.qbs
 usr/share/qbs/imports/qbs/Probes/JdkProbe.qbs
@@ -17,10 +18,13 @@ usr/share/qbs/imports/qbs/Probes/PathProbe.qbs
 usr/share/qbs/imports/qbs/Probes/PkgConfigProbe.qbs
 usr/share/qbs/imports/qbs/Probes/TypeScriptProbe.qbs
 usr/share/qbs/imports/qbs/Probes/WiXProbe.qbs
+usr/share/qbs/imports/qbs/Probes/XcodeProbe.qbs
 usr/share/qbs/imports/qbs/Probes/path-probe.js
 usr/share/qbs/imports/qbs/UnixUtils/unix-utils.js
 usr/share/qbs/imports/qbs/WindowsUtils/windows-utils.js
 usr/share/qbs/imports/qbs/base/AndroidApk.qbs
+usr/share/qbs/imports/qbs/base/AppleApplicationDiskImage.qbs
+usr/share/qbs/imports/qbs/base/AppleDiskImage.qbs
 usr/share/qbs/imports/qbs/base/Application.qbs
 usr/share/qbs/imports/qbs/base/ApplicationExtension.qbs
 usr/share/qbs/imports/qbs/base/AutotestRunner.qbs
@@ -33,6 +37,7 @@ usr/share/qbs/imports/qbs/base/JavaJarFile.qbs
 usr/share/qbs/imports/qbs/base/Library.qbs
 usr/share/qbs/imports/qbs/base/LoadableModule.qbs
 usr/share/qbs/imports/qbs/base/NSISSetup.qbs
+usr/share/qbs/imports/qbs/base/NativeBinary.qbs
 usr/share/qbs/imports/qbs/base/NetModule.qbs
 usr/share/qbs/imports/qbs/base/NodeJSApplication.qbs
 usr/share/qbs/imports/qbs/base/QtApplication.qbs
@@ -61,6 +66,7 @@ usr/share/qbs/modules/cpp/GenericGCC.qbs
 usr/share/qbs/modules/cpp/LinuxGCC.qbs
 usr/share/qbs/modules/cpp/UnixGCC.qbs
 usr/share/qbs/modules/cpp/android-gcc.qbs
+usr/share/qbs/modules/cpp/darwin.js
 usr/share/qbs/modules/cpp/freebsd-gcc.qbs
 usr/share/qbs/modules/cpp/freebsd.js
 usr/share/qbs/modules/cpp/gcc.js
@@ -73,18 +79,16 @@ usr/share/qbs/modules/cpp/tvos-gcc.qbs
 usr/share/qbs/modules/cpp/watchos-gcc.qbs
 usr/share/qbs/modules/cpp/windows-mingw.qbs
 usr/share/qbs/modules/cpp/windows-msvc.qbs
+usr/share/qbs/modules/dmg/DMGModule.qbs
+usr/share/qbs/modules/dmg/dmg.js
 usr/share/qbs/modules/ib/IBModule.qbs
 usr/share/qbs/modules/ib/ib.js
 usr/share/qbs/modules/innosetup/InnoSetupModule.qbs
 usr/share/qbs/modules/java/JavaModule.qbs
 usr/share/qbs/modules/java/io/qt/qbs/Artifact.java
 usr/share/qbs/modules/java/io/qt/qbs/ArtifactListJsonWriter.java
-usr/share/qbs/modules/java/io/qt/qbs/ArtifactListTextWriter.java
 usr/share/qbs/modules/java/io/qt/qbs/ArtifactListWriter.java
-usr/share/qbs/modules/java/io/qt/qbs/ArtifactListXmlWriter.java
 usr/share/qbs/modules/java/io/qt/qbs/tools/JavaCompilerScannerTool.java
-usr/share/qbs/modules/java/io/qt/qbs/tools/utils/ArtifactProcessor.java
-usr/share/qbs/modules/java/io/qt/qbs/tools/utils/ArtifactScanner.java
 usr/share/qbs/modules/java/io/qt/qbs/tools/utils/JavaCompilerOptions.java
 usr/share/qbs/modules/java/io/qt/qbs/tools/utils/JavaCompilerScanner.java
 usr/share/qbs/modules/java/io/qt/qbs/tools/utils/NullFileObject.java
@@ -102,3 +106,4 @@ usr/share/qbs/modules/typescript/typescript.js
 usr/share/qbs/modules/wix/WiXModule.qbs
 usr/share/qbs/modules/xcode/xcode.js
 usr/share/qbs/modules/xcode/xcode.qbs
+usr/share/qbs/python/

@@ -23,6 +23,7 @@ usr/include/qbs/tools/preferences.h
 usr/include/qbs/tools/processresult.h
 usr/include/qbs/tools/profile.h
 usr/include/qbs/tools/qbs_export.h
+usr/include/qbs/tools/qbspluginmanager.h
 usr/include/qbs/tools/settings.h
 usr/include/qbs/tools/settingsmodel.h
 usr/include/qbs/tools/setupprojectparameters.h

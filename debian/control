@@ -41,7 +41,7 @@ Description: Qbs static files
  .
  This package contains Qbs shared static files.
 
-Package: libqbscore1.8
+Package: libqbscore1.10
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -53,7 +53,7 @@ Description: Qbs core library
  .
  This package contains Qbs core shared library.
 
-Package: libqbsqtprofilesetup1.8
+Package: libqbsqtprofilesetup1.10
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -68,8 +68,8 @@ Description: Qbs profile setup library
 Package: qbs-dev
 Architecture: any
 Section: libdevel
-Depends: libqbscore1.8 (= ${binary:Version}),
-         libqbsqtprofilesetup1.8 (= ${binary:Version}),
+Depends: libqbscore1.10 (= ${binary:Version}),
+         libqbsqtprofilesetup1.10 (= ${binary:Version}),
          ${misc:Depends}
 Description: Qbs development files
  Qbs is a general purpose cross-platform build tool that aims at fast and

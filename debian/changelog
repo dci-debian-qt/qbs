@@ -5,6 +5,7 @@ qbs (1.10.0+dfsg-1) UNRELEASED; urgency=medium
   * Refresh and rebase other patches.
   * Install upstream changelog.
   * Update install files for the new release.
+  * Rename the library packages according to upstream SONAME change.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 12 Sep 2017 16:02:55 +0300
 

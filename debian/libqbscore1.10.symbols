@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 1.8.1 amd64 armel armhf i386 m68k mips mipsel powerpc
-libqbscore.so.1.8 libqbscore1.8 #MINVER#
+libqbscore.so.1.10 libqbscore1.10 #MINVER#
  _ZN3qbs10InstallJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.2.1
  _ZN3qbs10InstallJob11qt_metacastEPKc@Base 1.2.1
  _ZN3qbs10InstallJob16staticMetaObjectE@Base 1.2.1

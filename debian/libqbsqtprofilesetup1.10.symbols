@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 1.8.1 amd64
-libqbsqtprofilesetup.so.1.8 libqbsqtprofilesetup1.8 #MINVER#
+libqbsqtprofilesetup.so.1.10 libqbsqtprofilesetup1.10 #MINVER#
  _ZN3qbs14setupQtProfileERK7QStringPNS_8SettingsERKNS_13QtEnvironmentE@Base 1.2.1
  (optional=templinst)_ZNSt5dequeI7QStringSaIS0_EE16_M_push_back_auxIJRKS0_EEEvDpOT_@Base 1.8.0
  (optional=templinst)_ZNSt5dequeI7QStringSaIS0_EED1Ev@Base 1.8.0

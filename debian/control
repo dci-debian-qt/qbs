@@ -9,7 +9,7 @@ Uploaders: Dmitry Shachnev <mitya57@debian.org>,
 Build-Depends: debhelper (>= 10),
                pkg-kde-tools,
                qtbase5-dev (>= 5.6.0),
-               qtdeclarative5-dev,
+               qtdeclarative5-private-dev,
                qtscript5-dev,
                qttools5-dev-tools
 Build-Depends-Indep: libqt5sql5-sqlite

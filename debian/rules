@@ -48,6 +48,7 @@ override_dh_auto_test-arch:
 	set -ex; \
 		export LD_LIBRARY_PATH=$(CURDIR)/lib/${DEB_HOST_MULTIARCH}:$$LD_LIBRARY_PATH; \
 		export HOME=$(TMP_HOME_DIR); \
+		export QBS_AUTOTEST_PROFILE=qbs_autotests; \
 		$(CURDIR)/bin/qbs-setup-toolchains --detect; \
 		$(CURDIR)/bin/qbs-setup-qt /usr/bin/qmake qbs_autotests; \
 		[ -n "`$(CURDIR)/bin/qbs-config --list profiles.qbs_autotests.baseProfile`" ] || \

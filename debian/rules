@@ -8,9 +8,6 @@ include /usr/share/dpkg/pkg-info.mk
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 TMP_HOME_DIR = $(CURDIR)/debian/home
 
-export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
-export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
-export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 %:
@@ -23,14 +20,11 @@ override_dh_auto_clean:
 	find . -type f -name .gitignore -delete -print
 
 override_dh_auto_configure:
-	qmake qbs.pro \
+	dh_auto_configure -- qbs.pro \
 		CONFIG+=debug \
 		CONFIG+=qbs_disable_rpath \
 		CONFIG+=qbs_enable_project_file_updates \
 		CONFIG+=qbs_enable_unit_tests \
-		QMAKE_CFLAGS+="${CFLAGS} ${CPPFLAGS}" \
-		QMAKE_CXXFLAGS+="${CXXFLAGS} ${CPPFLAGS}" \
-		QMAKE_LFLAGS+="${LDFLAGS}" \
 		QBS_INSTALL_PREFIX=/usr \
 		QBS_LIBEXEC_INSTALL_DIR=/usr/lib/${DEB_HOST_MULTIARCH}/qbs \
 		QBS_LIBEXEC_DESTDIR=../../../lib/${DEB_HOST_MULTIARCH}/qbs \

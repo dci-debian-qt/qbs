@@ -10,6 +10,7 @@ qbs (1.10.0+dfsg-1) UNRELEASED; urgency=medium
   * Build-depend on qtdeclarative5-private-dev, for Qt.quick module.
   * Update symbols files for the new release.
   * Use dh_missing instead of deprecated dh_install --fail-missing.
+  * Use dh_auto_configure provided by debhelper.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 12 Sep 2017 16:02:55 +0300
 

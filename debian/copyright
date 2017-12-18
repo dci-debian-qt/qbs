@@ -1,10 +1,10 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Qbs
 Source: https://download.qt.io/official_releases/qbs/
 Files-Excluded: doc/templates/scripts/jquery.js
 
 Files: *
-Copyright: 2015-2017, The Qt Company Ltd.
+Copyright: 2016-2017, The Qt Company Ltd.
            2015, Jake Petroules
 License: LGPL-3 or GPL-2
 
@@ -14,7 +14,7 @@ Copyright: 2016, The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
 Files: src/plugins/scanner/cpp/*
-Copyright: 2015, The Qt Company Ltd.
+Copyright: 2016, The Qt Company Ltd.
            2008, Roberto Raggi <roberto.raggi@gmail.com>
 License: LGPL-3 or GPL-2, and Expat
 
@@ -27,19 +27,20 @@ Copyright: 2015-2016, The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
 Files: examples/*
-Copyright: 2016, The Qt Company Ltd.
+Copyright: 2017, The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: examples/*.h
-Copyright: 2016, The Qt Company Ltd.
+Copyright: 2017, The Qt Company Ltd.
            2015, Petroules Corporation
 License: LGPL-3 or GPL-2
 
 Files: doc/reference/items/language/group.qbs
        examples/*.m
+       examples/*.pch
        share/*
-       src/lib/corelib/generators/visualstudio/*
        src/lib/qtprofilesetup/templates/*.js
+       src/plugins/generator/visualstudio/*
        tests/auto/language/testdata/jsextensions.js
 Copyright: 2015-2016, The Qt Company Ltd.
            2015, Petroules Corporation
@@ -63,15 +64,35 @@ License: Expat
 
 Files: tests/auto/blackbox/testdata/dynamicRuleOutputs/*
        tests/auto/blackbox/testdata/loadablemodule/main.cpp
-Copyright: 2015, The Qt Company Ltd.
+       tests/auto/blackbox/testdata-qt/dbus-adaptors/*.cpp
+       tests/auto/blackbox/testdata-qt/dbus-interfaces/*.cpp
+Copyright: 2015-2016, The Qt Company Ltd.
            2015, Jake Petroules
 License: BSD-3-clause
+
+Files: tests/auto/buildgraph/*
+       tests/auto/language/testdata/erroneous/main.cpp
+       tests/auto/language/tst_language.*
+       tests/auto/tools/*
+Copyright: 2016, The Qt Company Ltd.
+License: GPL-3 with Qt-1.0 exception
 
 Files: *.qdoc
 Copyright: 2015, Jake Petroules
            2015, Petroules Corporation
            2016-2017, The Qt Company Ltd.
 License: GFDL-NIV-1.3
+
+Files: src/3rdparty/python/lib/python2.7/site-packages/biplist/*
+Copyright: 2010, Andrew Wooster
+License: BSD-3-clause
+
+Files: src/3rdparty/python/bin/dmgbuild
+       src/3rdparty/python/lib/python2.7/site-packages/dmgbuild/*
+       src/3rdparty/python/lib/python2.7/site-packages/ds_store/*
+       src/3rdparty/python/lib/python2.7/site-packages/mac_alias/*
+Copyright: 2014, Alastair Houghton
+License: Expat
 
 Files: debian/*
 Copyright: 2014-2017, Dmitry Shachnev <mitya57@debian.org>
@@ -141,7 +162,7 @@ License: GPL-2
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
- On Debian systems, the complete text of the GNU General Public 
+ On Debian systems, the complete text of the GNU General Public
  License version 2 can be found in /usr/share/common-licenses/GPL-2.
 
 License: GPL-3 with Qt-1.0 exception

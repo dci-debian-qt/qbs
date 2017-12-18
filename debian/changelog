@@ -8,6 +8,7 @@ qbs (1.10.0+dfsg-1) UNRELEASED; urgency=medium
   * Rename the library packages according to upstream SONAME change.
   * Export QBS_AUTOTEST_PROFILE=qbs_autotests when running the tests.
   * Build-depend on qtdeclarative5-private-dev, for Qt.quick module.
+  * Update symbols files for the new release.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 12 Sep 2017 16:02:55 +0300
 

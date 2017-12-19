@@ -12,6 +12,7 @@ qbs (1.10.0+dfsg-1) UNRELEASED; urgency=medium
   * Use dh_missing instead of deprecated dh_install --fail-missing.
   * Use dh_auto_configure provided by debhelper.
   * Update debian/copyright.
+  * Do not install dmgbuild Python code, it is only working on macOS.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 12 Sep 2017 16:02:55 +0300
 

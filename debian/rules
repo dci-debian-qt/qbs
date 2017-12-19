@@ -54,6 +54,8 @@ override_dh_auto_test-indep:
 override_dh_install:
 	rm -fv debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libqbscore.so.1
 	rm -fv debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libqbsqtprofilesetup.so.1
+	rm -fv debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/qbs/dmgbuild
+	rm -rfv debian/tmp/usr/share/qbs/python
 	dh_install
 
 override_dh_missing:

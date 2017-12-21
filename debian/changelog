@@ -14,6 +14,7 @@ qbs (1.10.0+dfsg-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Do not install dmgbuild Python code, it is only working on macOS.
   * Fix Abstract field in qbs-doc-html.doc-base.
+  * Bump Standards-Version to 4.1.2, no changes needed.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 12 Sep 2017 16:02:55 +0300
 

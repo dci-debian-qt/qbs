@@ -1,5 +1,7 @@
 qbs (1.10.0+dfsg-3) UNRELEASED; urgency=medium
 
+  * Properly support DEB_BUILD_OPTIONS=nocheck (closes: #886656). Thanks to
+    Helmut Grohne.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 09 Jan 2018 14:49:03 +0300
 

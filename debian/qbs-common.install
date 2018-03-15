@@ -11,6 +11,7 @@ usr/share/qbs/imports/qbs/Probes/GccVersionProbe.qbs
 usr/share/qbs/imports/qbs/Probes/IncludeProbe.qbs
 usr/share/qbs/imports/qbs/Probes/InnoSetupProbe.qbs
 usr/share/qbs/imports/qbs/Probes/JdkProbe.qbs
+usr/share/qbs/imports/qbs/Probes/JdkVersionProbe.qbs
 usr/share/qbs/imports/qbs/Probes/MsvcProbe.qbs
 usr/share/qbs/imports/qbs/Probes/NodeJsProbe.qbs
 usr/share/qbs/imports/qbs/Probes/NpmProbe.qbs
@@ -55,7 +56,6 @@ usr/share/qbs/modules/bundle/BundleModule.qbs
 usr/share/qbs/modules/bundle/MacOSX-Package-Types.xcspec
 usr/share/qbs/modules/bundle/MacOSX-Product-Types.xcspec
 usr/share/qbs/modules/bundle/bundle.js
-usr/share/qbs/modules/bundle/update-specs.sh
 usr/share/qbs/modules/cli/CLIModule.qbs
 usr/share/qbs/modules/cli/cli.js
 usr/share/qbs/modules/cli/mono.qbs
@@ -79,6 +79,7 @@ usr/share/qbs/modules/cpp/tvos-gcc.qbs
 usr/share/qbs/modules/cpp/watchos-gcc.qbs
 usr/share/qbs/modules/cpp/windows-mingw.qbs
 usr/share/qbs/modules/cpp/windows-msvc.qbs
+usr/share/qbs/modules/cpufeatures/cpufeatures.qbs
 usr/share/qbs/modules/dmg/DMGModule.qbs
 usr/share/qbs/modules/dmg/dmg.js
 usr/share/qbs/modules/ib/IBModule.qbs
@@ -103,6 +104,7 @@ usr/share/qbs/modules/qnx/qnx.qbs
 usr/share/qbs/modules/typescript/TypeScriptModule.qbs
 usr/share/qbs/modules/typescript/qbs-tsc-scan/qbs-tsc-scan.ts
 usr/share/qbs/modules/typescript/typescript.js
+usr/share/qbs/modules/vcs/vcs-module.qbs
 usr/share/qbs/modules/wix/WiXModule.qbs
 usr/share/qbs/modules/xcode/xcode.js
 usr/share/qbs/modules/xcode/xcode.qbs

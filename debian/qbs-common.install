@@ -108,4 +108,3 @@ usr/share/qbs/modules/vcs/vcs-module.qbs
 usr/share/qbs/modules/wix/WiXModule.qbs
 usr/share/qbs/modules/xcode/xcode.js
 usr/share/qbs/modules/xcode/xcode.qbs
-usr/share/qbs/python/

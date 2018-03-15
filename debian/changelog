@@ -1,7 +1,11 @@
-qbs (1.10.0+dfsg-3) UNRELEASED; urgency=medium
+qbs (1.10.1+dfsg-1) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
   * Properly support DEB_BUILD_OPTIONS=nocheck (closes: #886656). Thanks to
     Helmut Grohne.
+
+  [ Simon Quigley ]
+  * New upstream release.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 09 Jan 2018 14:49:03 +0300
 

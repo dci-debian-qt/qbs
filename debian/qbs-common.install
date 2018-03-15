@@ -33,6 +33,7 @@ usr/share/qbs/imports/qbs/base/CppApplication.qbs
 usr/share/qbs/imports/qbs/base/DynamicLibrary.qbs
 usr/share/qbs/imports/qbs/base/InnoSetup.qbs
 usr/share/qbs/imports/qbs/base/InstallPackage.qbs
+usr/share/qbs/imports/qbs/base/Installer.qbs
 usr/share/qbs/imports/qbs/base/JavaClassCollection.qbs
 usr/share/qbs/imports/qbs/base/JavaJarFile.qbs
 usr/share/qbs/imports/qbs/base/Library.qbs
@@ -70,7 +71,6 @@ usr/share/qbs/modules/cpp/darwin.js
 usr/share/qbs/modules/cpp/freebsd-gcc.qbs
 usr/share/qbs/modules/cpp/freebsd.js
 usr/share/qbs/modules/cpp/gcc.js
-usr/share/qbs/modules/cpp/genericunix-gcc.qbs
 usr/share/qbs/modules/cpp/ios-gcc.qbs
 usr/share/qbs/modules/cpp/macos-gcc.qbs
 usr/share/qbs/modules/cpp/msvc.js

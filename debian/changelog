@@ -12,6 +12,7 @@ qbs (1.10.1+dfsg-1) UNRELEASED; urgency=medium
     - No other changes were required.
   * Update Vcs-* to reflect the move to Salsa.
   * Follow the hints given by the multiarch hinter.
+  * Update qbs-common.install for the new upstream release.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 09 Jan 2018 14:49:03 +0300
 

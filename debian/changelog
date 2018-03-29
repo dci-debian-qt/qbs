@@ -1,3 +1,9 @@
+qbs (1.11.0+dfsg-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Alexander Volkov <support@rusbitech.ru>  Wed, 04 Apr 2018 13:08:03 +0300
+
 qbs (1.10.1+dfsg-1) unstable; urgency=medium
 
   [ Dmitry Shachnev ]

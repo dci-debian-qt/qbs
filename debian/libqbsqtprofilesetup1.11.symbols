@@ -1,10 +1,11 @@
-# SymbolsHelper-Confirmed: 1.10.1 amd64
+# SymbolsHelper-Confirmed: 1.11.0 amd64
 libqbsqtprofilesetup.so.1.11 libqbsqtprofilesetup1.11 #MINVER#
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEclEcE5__nul@Base 1.10.0
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEclEcE5__nul@Base 1.10.0
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEclEcE5__nul@Base 1.10.0
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEclEcE5__nul@Base 1.10.0
  _ZN3qbs14setupQtProfileERK7QStringPNS_8SettingsERKNS_13QtEnvironmentE@Base 1.2.1
+ _ZN3qbs29qbsTargetPlatformFromQtMkspecERK7QString@Base 1.11.0
  (optional=templinst)_ZNKSt7__cxx1112regex_traitsIcE16lookup_classnameIPKcEENS1_10_RegexMaskET_S6_b@Base 1.10.0
  (optional=templinst)_ZNKSt7__cxx1112regex_traitsIcE17transform_primaryIPKcEENS_12basic_stringIcSt11char_traitsIcESaIcEEET_SA_@Base 1.10.0
  (optional=templinst)_ZNKSt7__cxx1112regex_traitsIcE18lookup_collatenameIPKcEENS_12basic_stringIcSt11char_traitsIcESaIcEEET_SA_@Base 1.10.0

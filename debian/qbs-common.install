@@ -6,8 +6,10 @@ usr/share/qbs/imports/qbs/Probes/AndroidNdkProbe.qbs
 usr/share/qbs/imports/qbs/Probes/AndroidSdkProbe.qbs
 usr/share/qbs/imports/qbs/Probes/BinaryProbe.qbs
 usr/share/qbs/imports/qbs/Probes/FrameworkProbe.qbs
+usr/share/qbs/imports/qbs/Probes/GccBinaryProbe.qbs
 usr/share/qbs/imports/qbs/Probes/GccProbe.qbs
 usr/share/qbs/imports/qbs/Probes/GccVersionProbe.qbs
+usr/share/qbs/imports/qbs/Probes/IcoUtilsVersionProbe.qbs
 usr/share/qbs/imports/qbs/Probes/IncludeProbe.qbs
 usr/share/qbs/imports/qbs/Probes/InnoSetupProbe.qbs
 usr/share/qbs/imports/qbs/Probes/JdkProbe.qbs
@@ -33,7 +35,6 @@ usr/share/qbs/imports/qbs/base/CppApplication.qbs
 usr/share/qbs/imports/qbs/base/DynamicLibrary.qbs
 usr/share/qbs/imports/qbs/base/InnoSetup.qbs
 usr/share/qbs/imports/qbs/base/InstallPackage.qbs
-usr/share/qbs/imports/qbs/base/Installer.qbs
 usr/share/qbs/imports/qbs/base/JavaClassCollection.qbs
 usr/share/qbs/imports/qbs/base/JavaJarFile.qbs
 usr/share/qbs/imports/qbs/base/Library.qbs
@@ -75,6 +76,7 @@ usr/share/qbs/modules/cpp/ios-gcc.qbs
 usr/share/qbs/modules/cpp/macos-gcc.qbs
 usr/share/qbs/modules/cpp/msvc.js
 usr/share/qbs/modules/cpp/qnx-qcc.qbs
+usr/share/qbs/modules/cpp/setuprunenv.js
 usr/share/qbs/modules/cpp/tvos-gcc.qbs
 usr/share/qbs/modules/cpp/watchos-gcc.qbs
 usr/share/qbs/modules/cpp/windows-mingw.qbs
@@ -84,6 +86,8 @@ usr/share/qbs/modules/dmg/DMGModule.qbs
 usr/share/qbs/modules/dmg/dmg.js
 usr/share/qbs/modules/ib/IBModule.qbs
 usr/share/qbs/modules/ib/ib.js
+usr/share/qbs/modules/ico/IcoModule.qbs
+usr/share/qbs/modules/ico/ico.js
 usr/share/qbs/modules/innosetup/InnoSetupModule.qbs
 usr/share/qbs/modules/java/JavaModule.qbs
 usr/share/qbs/modules/java/io/qt/qbs/Artifact.java
@@ -108,3 +112,5 @@ usr/share/qbs/modules/vcs/vcs-module.qbs
 usr/share/qbs/modules/wix/WiXModule.qbs
 usr/share/qbs/modules/xcode/xcode.js
 usr/share/qbs/modules/xcode/xcode.qbs
+usr/share/qbs/qml-type-descriptions/qbs.qmltypes
+usr/share/qbs/qml-type-descriptions/qbs-bundle.json

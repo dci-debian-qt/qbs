@@ -6,6 +6,7 @@ qbs (1.11.0+dfsg-1) UNRELEASED; urgency=medium
     qbs_processlauncher (processlauncher_destdir.diff).
   * Set LD_LIBRARY_PATH for qbsres target so it could use built qbs
     to generate QML type descriptions (qml_type_descriptions.diff).
+  * Fix the list of installed headers for qmake build (installed_headers.diff).
 
  -- Alexander Volkov <support@rusbitech.ru>  Wed, 04 Apr 2018 13:08:03 +0300
 

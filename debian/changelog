@@ -2,6 +2,8 @@ qbs (1.11.0+dfsg-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Drop fix_ftbfs_gcc6.diff, applied upstream.
+  * Update QBS_LIBEXEC_DESTDIR for static.pro and fix DESTDIR for
+    qbs_processlauncher (processlauncher_destdir.diff).
 
  -- Alexander Volkov <support@rusbitech.ru>  Wed, 04 Apr 2018 13:08:03 +0300
 

@@ -2,3 +2,4 @@ remove_rpaths.diff
 disable_tests_qtscript.diff
 skip_test_concurrent.diff
 kfreebsd_soname.diff
+processlauncher_destdir.diff

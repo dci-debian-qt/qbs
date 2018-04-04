@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 1.10.1 amd64
-libqbsqtprofilesetup.so.1.10 libqbsqtprofilesetup1.10 #MINVER#
+libqbsqtprofilesetup.so.1.11 libqbsqtprofilesetup1.11 #MINVER#
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEclEcE5__nul@Base 1.10.0
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEclEcE5__nul@Base 1.10.0
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEclEcE5__nul@Base 1.10.0

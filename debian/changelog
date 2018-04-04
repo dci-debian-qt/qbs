@@ -8,6 +8,7 @@ qbs (1.11.0+dfsg-1) UNRELEASED; urgency=medium
     to generate QML type descriptions (qml_type_descriptions.diff).
   * Fix the list of installed headers for qmake build (installed_headers.diff).
   * Update install files for the new release.
+  * Rename the library packages according to upstream SONAME change.
 
  -- Alexander Volkov <support@rusbitech.ru>  Wed, 04 Apr 2018 13:08:03 +0300
 

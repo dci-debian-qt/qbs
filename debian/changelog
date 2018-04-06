@@ -1,5 +1,6 @@
-qbs (1.11.0+dfsg-1) UNRELEASED; urgency=medium
+qbs (1.11.0+dfsg-1) unstable; urgency=medium
 
+  [ Alexander Volkov ]
   * New upstream release.
   * Drop fix_ftbfs_gcc6.diff, applied upstream.
   * Update QBS_LIBEXEC_DESTDIR for static.pro and fix DESTDIR for
@@ -11,7 +12,7 @@ qbs (1.11.0+dfsg-1) UNRELEASED; urgency=medium
   * Rename the library packages according to upstream SONAME change.
   * Update symbols from build logs.
 
- -- Alexander Volkov <support@rusbitech.ru>  Wed, 04 Apr 2018 13:08:03 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 06 Apr 2018 17:36:51 +0300
 
 qbs (1.10.1+dfsg-1) unstable; urgency=medium
 

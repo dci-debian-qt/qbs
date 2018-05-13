@@ -18,7 +18,7 @@ Last-Update: 2017-09-11
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
-@@ -14,5 +14,10 @@
+@@ -14,5 +14,10 @@ SUBDIRS += \
      blackbox/blackbox-apple.pro \
      blackbox/blackbox-clangdb.pro \
      blackbox/blackbox-java.pro \

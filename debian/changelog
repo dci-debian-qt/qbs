@@ -1,9 +1,13 @@
 qbs (1.11.1+dfsg-1) unstable; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream release.
   * Bump Standards-version to 4.1.4, no changes needed.
   * Update patches for new upstream release and remove reverse-
     applicable installed_headers.diff.
+
+  [ Dmitry Shachnev ]
+  * Update symbols files from buildds’ logs.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 12 May 2018 20:00:45 -0500
 

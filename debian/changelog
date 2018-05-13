@@ -1,12 +1,11 @@
-qbs (1.11.1+dfsg-1) UNRELEASED; urgency=medium
+qbs (1.11.1+dfsg-1) unstable; urgency=medium
 
-  [ Simon Quigley ]
   * New upstream release.
   * Bump Standards-version to 4.1.4, no changes needed.
   * Update patches for new upstream release and remove reverse-
     applicable installed_headers.diff.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 May 2018 19:38:39 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 12 May 2018 20:00:45 -0500
 
 qbs (1.11.0+dfsg-1) unstable; urgency=medium
 

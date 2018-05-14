@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.11.0 amd64 armel armhf i386 mips mipsel powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 1.11.1 arm64 mips64el ppc64
 libqbsqtprofilesetup.so.1.11 libqbsqtprofilesetup1.11 #MINVER#
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEclEcE5__nul@Base 1.10.0
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEclEcE5__nul@Base 1.10.0
@@ -69,7 +69,7 @@ libqbsqtprofilesetup.so.1.11 libqbsqtprofilesetup1.11 #MINVER#
  (optional=templinst)_ZNSt5dequeI7QStringSaIS0_EED1Ev@Base 1.8.0
  (optional=templinst)_ZNSt5dequeI7QStringSaIS0_EED2Ev@Base 1.8.0
  (optional=templinst)_ZNSt5dequeINSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 1.10.0
- (optional=templinst|arch=amd64 i386 mips mipsel)_ZNSt5dequeINSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEEESaIS5_EE16_M_push_back_auxIJRKS5_EEEvDpOT_@Base 1.10.0
+ (optional=templinst)_ZNSt5dequeINSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEEESaIS5_EE16_M_push_back_auxIJRKS5_EEEvDpOT_@Base 1.10.0
  (optional=templinst|subst)_ZNSt5dequeINSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEEESaIS5_EE17_M_reallocate_mapE{size_t}b@Base 1.10.1
  (optional=templinst)_ZNSt5dequeINSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEEESaIS5_EE9push_backERKS5_@Base 1.10.0
  (optional=templinst)_ZNSt5dequeIlSaIlEE16_M_push_back_auxIJRKlEEEvDpOT_@Base 1.10.0

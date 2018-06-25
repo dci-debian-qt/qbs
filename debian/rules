@@ -20,7 +20,7 @@ override_dh_auto_clean:
 	find . -type f -name .gitignore -delete -print
 
 override_dh_auto_configure:
-	dh_auto_configure -- qbs.pro \
+	qmake qbs.pro \
 		CONFIG+=debug \
 		CONFIG+=qbs_disable_rpath \
 		CONFIG+=qbs_enable_project_file_updates \

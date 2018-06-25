@@ -13,10 +13,10 @@ Build-Depends: debhelper (>= 9),
                qtscript5-dev,
                qttools5-dev-tools
 Build-Depends-Indep: libqt5sql5-sqlite
-Standards-Version: 4.1.2
+Standards-Version: 4.1.4
 Homepage: https://wiki.qt.io/Qbs
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qbs.git
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qbs.git
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qbs.git
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qbs/
 
 Package: qbs
 Architecture: any
@@ -31,6 +31,7 @@ Description: cross-platform build tool
 
 Package: qbs-common
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Breaks: qbs (<< 1.4.3+dfsg-2~)
 Replaces: qbs (<< 1.4.3+dfsg-2~)
@@ -41,8 +42,9 @@ Description: Qbs static files
  .
  This package contains Qbs shared static files.
 
-Package: libqbscore1.10
+Package: libqbscore1.11
 Architecture: any
+Multi-Arch: same
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: qbs-common (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
@@ -53,8 +55,9 @@ Description: Qbs core library
  .
  This package contains Qbs core shared library.
 
-Package: libqbsqtprofilesetup1.10
+Package: libqbsqtprofilesetup1.11
 Architecture: any
+Multi-Arch: same
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -69,9 +72,10 @@ Description: Qbs profile setup library
 
 Package: qbs-dev
 Architecture: any
+Multi-Arch: same
 Section: libdevel
-Depends: libqbscore1.10 (= ${binary:Version}),
-         libqbsqtprofilesetup1.10 (= ${binary:Version}),
+Depends: libqbscore1.11 (= ${binary:Version}),
+         libqbsqtprofilesetup1.11 (= ${binary:Version}),
          ${misc:Depends}
 Description: Qbs development files
  Qbs is a general purpose cross-platform build tool that aims at fast and
@@ -82,6 +86,7 @@ Description: Qbs development files
 
 Package: qbs-examples
 Architecture: all
+Multi-Arch: foreign
 Section: doc
 Depends: ${misc:Depends}
 Description: examples for Qbs build tool
@@ -93,6 +98,7 @@ Description: examples for Qbs build tool
 
 Package: qbs-doc
 Architecture: all
+Multi-Arch: foreign
 Section: doc
 Depends: ${misc:Depends}
 Description: Qbs documentation
@@ -104,6 +110,7 @@ Description: Qbs documentation
  viewed using Qt Assistant from qttools5-dev-tools package.
 
 Package: qbs-doc-html
+Multi-Arch: foreign
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}

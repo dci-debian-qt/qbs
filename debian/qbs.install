@@ -2,7 +2,6 @@ usr/bin/qbs
 usr/bin/qbs-config
 usr/bin/qbs-config-ui
 usr/bin/qbs-create-project
-usr/bin/qbs-qmltypes
 usr/bin/qbs-setup-android
 usr/bin/qbs-setup-qt
 usr/bin/qbs-setup-toolchains

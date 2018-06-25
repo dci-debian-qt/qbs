@@ -1,3 +1,58 @@
+qbs (1.11.1+dfsg-2) unstable; urgency=medium
+
+  * Fix architecture independent builds.
+  * Update libqbsqtprofilesetup1.11.symbols from buildds’ logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 14 May 2018 23:18:21 +0300
+
+qbs (1.11.1+dfsg-1) unstable; urgency=medium
+
+  [ Simon Quigley ]
+  * New upstream release.
+  * Bump Standards-version to 4.1.4, no changes needed.
+  * Update patches for new upstream release and remove reverse-
+    applicable installed_headers.diff.
+
+  [ Dmitry Shachnev ]
+  * Update symbols files from buildds’ logs.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 12 May 2018 20:00:45 -0500
+
+qbs (1.11.0+dfsg-1) unstable; urgency=medium
+
+  [ Alexander Volkov ]
+  * New upstream release.
+  * Drop fix_ftbfs_gcc6.diff, applied upstream.
+  * Update QBS_LIBEXEC_DESTDIR for static.pro and fix DESTDIR for
+    qbs_processlauncher (processlauncher_destdir.diff).
+  * Set LD_LIBRARY_PATH for qbsres target so it could use built qbs
+    to generate QML type descriptions (qml_type_descriptions.diff).
+  * Fix the list of installed headers for qmake build (installed_headers.diff).
+  * Update install files for the new release.
+  * Rename the library packages according to upstream SONAME change.
+  * Update symbols from build logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 06 Apr 2018 17:36:51 +0300
+
+qbs (1.10.1+dfsg-1) unstable; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Properly support DEB_BUILD_OPTIONS=nocheck (closes: #886656). Thanks to
+    Helmut Grohne.
+
+  [ Simon Quigley ]
+  * New upstream release.
+  * Bump Standards-version to 4.1.3, no changes needed.
+  * Bump debhelper compat to 11:
+    - Remove --parallel from debian/rules because it is already used by default.
+    - No other changes were required.
+  * Update Vcs-* to reflect the move to Salsa.
+  * Follow the hints given by the multiarch hinter.
+  * Update qbs-common.install for the new upstream release.
+  * Update symbols from build logs.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 15 Mar 2018 18:05:03 -0500
+
 qbs (1.10.0+dfsg-2) unstable; urgency=medium
 
   * Update symbols files from buildds’ logs.

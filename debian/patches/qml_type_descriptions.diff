@@ -1,0 +1,15 @@
+Description: fix the generation of QML type descriptions
+Author: Alexander Volkov <a.volkov@rusbitech.ru>
+Forwarded: not-yet
+Last-Update: 2018-04-04
+
+--- a/static-res.pro
++++ b/static-res.pro
+@@ -15,6 +15,7 @@ else: \
+ 
+ qbsres.target = $$builddirname/default/default.bg
+ qbsres.commands = \
++    LD_LIBRARY_PATH=$$QBS_LIBRARY_DIRNAME:\$$LD_LIBRARY_PATH \
+     $$shell_quote($$shell_path($$qbsbindir/qbs)) \
+     build \
+     --settings-dir $$shell_quote($$builddirname/settings) \

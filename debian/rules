@@ -11,7 +11,7 @@ TMP_HOME_DIR = $(CURDIR)/debian/home
 export QT_SELECT := qt5
 
 %:
-	dh $@ --parallel --with pkgkde_symbolshelper
+	dh $@ --with pkgkde_symbolshelper
 
 override_dh_auto_clean:
 	dh_auto_clean
@@ -27,18 +27,21 @@ override_dh_auto_configure:
 		CONFIG+=qbs_enable_unit_tests \
 		QBS_INSTALL_PREFIX=/usr \
 		QBS_LIBEXEC_INSTALL_DIR=/usr/lib/${DEB_HOST_MULTIARCH}/qbs \
-		QBS_LIBEXEC_DESTDIR=../../../lib/${DEB_HOST_MULTIARCH}/qbs \
+		QBS_LIBEXEC_DESTDIR=lib/${DEB_HOST_MULTIARCH}/qbs \
 		QBS_RELATIVE_LIBEXEC_PATH=../lib/${DEB_HOST_MULTIARCH}/qbs \
 		QBS_LIBRARY_DIRNAME=lib/${DEB_HOST_MULTIARCH}
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
+	dh_auto_build -- sub-static-res-pro
 
 override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_inst_html_docs
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp sub-static-pro-install_subtargets
+	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp sub-static-res-pro-install_subtargets
 
 override_dh_auto_test-arch:
+ifeq ($(filter nocheck,$(DEB_BUILD_OPTIONS)),)
 	set -ex; \
 		export LD_LIBRARY_PATH=$(CURDIR)/lib/${DEB_HOST_MULTIARCH}:$$LD_LIBRARY_PATH; \
 		export HOME=$(TMP_HOME_DIR); \
@@ -48,6 +51,7 @@ override_dh_auto_test-arch:
 		[ -n "`$(CURDIR)/bin/qbs-config --list profiles.qbs_autotests.baseProfile`" ] || \
 			$(CURDIR)/bin/qbs-config profiles.qbs_autotests.baseProfile gcc; \
 		LC_ALL=C.UTF-8 dh_auto_test
+endif
 
 override_dh_auto_test-indep:
 

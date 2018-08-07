@@ -4,3 +4,4 @@ skip_test_concurrent.diff
 kfreebsd_soname.diff
 processlauncher_destdir.diff
 qml_type_descriptions.diff
+install_missing.patch

@@ -3,6 +3,7 @@ qbs (1.12.0+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Install missing header file.
   * Update install files for the new release.
+  * Rename the library packages according to upstream SONAME change.
 
  -- Alexander Volkov <support@rusbitech.ru>  Tue, 07 Aug 2018 17:52:56 +0300
 

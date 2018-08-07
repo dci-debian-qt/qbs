@@ -53,6 +53,10 @@ usr/share/qbs/modules/Android/ndk/ndk.qbs
 usr/share/qbs/modules/Android/ndk/utils.js
 usr/share/qbs/modules/Android/sdk/sdk.qbs
 usr/share/qbs/modules/Android/sdk/utils.js
+usr/share/qbs/modules/Exporter/pkgconfig/pkgconfig.qbs
+usr/share/qbs/modules/Exporter/pkgconfig/pkgconfig.js
+usr/share/qbs/modules/Exporter/qbs/qbsexporter.qbs
+usr/share/qbs/modules/Exporter/qbs/qbsexporter.js
 usr/share/qbs/modules/archiver/archiver.qbs
 usr/share/qbs/modules/bundle/BundleModule.qbs
 usr/share/qbs/modules/bundle/MacOSX-Package-Types.xcspec
@@ -68,6 +72,7 @@ usr/share/qbs/modules/cpp/GenericGCC.qbs
 usr/share/qbs/modules/cpp/LinuxGCC.qbs
 usr/share/qbs/modules/cpp/UnixGCC.qbs
 usr/share/qbs/modules/cpp/android-gcc.qbs
+usr/share/qbs/modules/cpp/cpp.js
 usr/share/qbs/modules/cpp/darwin.js
 usr/share/qbs/modules/cpp/freebsd-gcc.qbs
 usr/share/qbs/modules/cpp/freebsd.js

@@ -1,5 +1,6 @@
 usr/include/qbs/api/jobs.h
 usr/include/qbs/api/languageinfo.h
+usr/include/qbs/api/transformerdata.h
 usr/include/qbs/api/project.h
 usr/include/qbs/api/projectdata.h
 usr/include/qbs/api/rulecommand.h
@@ -12,6 +13,7 @@ usr/include/qbs/logging/ilogsink.h
 usr/include/qbs/qbs.h
 usr/include/qbs/qbs_version.pri
 usr/include/qbs/qtenvironment.h
+usr/include/qbs/qtmsvctools.h
 usr/include/qbs/qtprofilesetup.h
 usr/include/qbs/tools/architectures.h
 usr/include/qbs/tools/buildoptions.h
@@ -28,6 +30,7 @@ usr/include/qbs/tools/projectgeneratormanager.h
 usr/include/qbs/tools/qbs_export.h
 usr/include/qbs/tools/settings.h
 usr/include/qbs/tools/settingsmodel.h
+usr/include/qbs/tools/settingsrepresentation.h
 usr/include/qbs/tools/setupprojectparameters.h
 usr/include/qbs/tools/toolchains.h
 usr/include/qbs/tools/version.h

@@ -6,6 +6,7 @@ usr/bin/qbs-setup-android
 usr/bin/qbs-setup-qt
 usr/bin/qbs-setup-toolchains
 usr/lib/*/qbs/plugins/libclangcompilationdbgenerator.so
+usr/lib/*/qbs/plugins/libmakefilegenerator.so
 usr/lib/*/qbs/plugins/libqbs_cpp_scanner.so
 usr/lib/*/qbs/plugins/libqbs_qt_scanner.so
 usr/lib/*/qbs/plugins/libvisualstudiogenerator.so

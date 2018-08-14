@@ -1,4 +1,4 @@
-qbs (1.12.0+dfsg-1) UNRELEASED; urgency=medium
+qbs (1.12.0+dfsg-1) experimental; urgency=medium
 
   [ Alexander Volkov ]
   * New upstream release.
@@ -11,7 +11,7 @@ qbs (1.12.0+dfsg-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Bump qtbase5-dev build-dependency to 5.9.0.
 
- -- Alexander Volkov <support@rusbitech.ru>  Tue, 07 Aug 2018 17:52:56 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 14 Aug 2018 14:10:34 +0300
 
 qbs (1.11.1+dfsg-2) unstable; urgency=medium
 

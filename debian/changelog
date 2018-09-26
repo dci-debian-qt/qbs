@@ -1,6 +1,5 @@
-qbs (1.12.1+dfsg-1) UNRELEASED; urgency=medium
+qbs (1.12.1+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
     - Tests now pass on i386 (closes: #908477).
   * Drop install_missing.patch, applied in the new release.
@@ -10,7 +9,7 @@ qbs (1.12.1+dfsg-1) UNRELEASED; urgency=medium
   * Update symbols files from buildds’ and the current build logs.
   * Bump Standards-Version to 4.2.1, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Sep 2018 19:15:55 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 26 Sep 2018 12:59:09 +0300
 
 qbs (1.12.0+dfsg-1) experimental; urgency=medium
 

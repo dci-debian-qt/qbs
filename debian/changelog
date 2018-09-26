@@ -6,7 +6,7 @@ qbs (1.12.1+dfsg-1) UNRELEASED; urgency=medium
   * Refresh skip_test_concurrent.diff.
   * Remove dbgsym migration, it is no longer needed.
   * Use xz compression for the repacked tarball.
-  * Update symbols files from buildds’ logs.
+  * Update symbols files from buildds’ and the current build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Sep 2018 19:15:55 +0300
 

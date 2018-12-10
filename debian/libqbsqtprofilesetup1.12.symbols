@@ -1,11 +1,11 @@
-# SymbolsHelper-Confirmed: 1.12.1 amd64 arm64 armel armhf i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 1.12.2 amd64
 libqbsqtprofilesetup.so.1.12 libqbsqtprofilesetup1.12 #MINVER#
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEclEcE5__nul@Base 1.10.0
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEclEcE5__nul@Base 1.10.0
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEclEcE5__nul@Base 1.10.0
  _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEclEcE5__nul@Base 1.10.0
  _ZN3qbs14setupQtProfileERK7QStringPNS_8SettingsERKNS_13QtEnvironmentE@Base 1.2.1
- _ZN3qbs29qbsTargetPlatformFromQtMkspecERK7QString@Base 1.11.0
+ _ZN3qbs29qbsTargetPlatformFromQtMkspecERKNS_13QtEnvironmentE@Base 1.12.2
  _ZN3qbs33msvcCompilerVersionFromMkspecNameERK7QString@Base 1.12.0
  _ZN3qbs8isMsvcQtERKNS_13QtEnvironmentE@Base 1.12.0
  (optional=templinst)_ZNKSt7__cxx1112regex_traitsIcE16lookup_classnameIPKcEENS1_10_RegexMaskET_S6_b@Base 1.10.0
@@ -223,7 +223,6 @@ libqbsqtprofilesetup.so.1.12 libqbsqtprofilesetup1.12 #MINVER#
  (arch=!armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 1.10.0
  (arch=armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 1.10.0
  (arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 1.10.0
- _ZTISt19_Sp_make_shared_tag@Base 1.10.0
  (arch=armel)_ZTISt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE1EE@Base 1.10.0
  (arch=!armel)_ZTISt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE@Base 1.10.0
  _ZTSN3qbs9ErrorInfoE@Base 1.2.1
@@ -261,3 +260,4 @@ libqbsqtprofilesetup.so.1.12 libqbsqtprofilesetup1.12 #MINVER#
  (optional=templinst)_ZZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEclEcE5__nul@Base 1.10.0
  (optional=templinst)_ZZNKSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb0EE10_M_is_wordEcE3__s@Base 1.10.0
  (optional=templinst)_ZZNKSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb1EE10_M_is_wordEcE3__s@Base 1.10.0
+ _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Base 1.12.2

@@ -2,6 +2,7 @@ qbs (1.12.2+dfsg-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Refresh debian/patches/skip_test_concurrent.diff.
+  * Update symbols files (closes: #916155).
 
  -- Dmitry Shachnev <mitya57@debian.org>  Mon, 10 Dec 2018 22:15:09 +0300
 

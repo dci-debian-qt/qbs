@@ -1,0 +1,24 @@
+Description: fix segfault with --log-level debug
+ A segfault can occur when the debug logging level is enabled
+ if the 'sourceCode' value is null.
+Origin: https://lists.qt-project.org/pipermail/qbs/2018-December/002292.html
+Bug-Debian: https://bugs.debian.org/917066
+Reviewed-By: wookey@debian.org
+Last-Update: 2018-12-22
+
+--- a/src/lib/corelib/language/moduleloader.cpp
++++ b/src/lib/corelib/language/moduleloader.cpp
+@@ -2341,9 +2341,11 @@ void ModuleLoader::adjustDefiningItemsIn
+                         << ", old defining item was " << v->definingItem()
+                         << " with scope" << v->definingItem()->scope()
+                         << ", new defining item is" << replacement
+-                        << " with scope" << replacement->scope()
+-                        << ", value source code is "
++                        << " with scope" << replacement->scope();
++                if (v->type() == Value::JSSourceValueType) {
++                    qCDebug(lcModuleLoader) << "value source code is"
+                         << std::static_pointer_cast<JSSourceValue>(v)->sourceCode().toString();
++                }
+                 replacement->setPropertyDeclaration(propName, decl);
+                 replacement->setProperty(propName, v);
+             } else {

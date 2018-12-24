@@ -1,3 +1,10 @@
+qbs (1.12.2+dfsg-3) UNRELEASED; urgency=medium
+
+  [ Simon Quigley ]
+  * Change my email to tsimonq2@debian.org now that I am a Debian Developer.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Dec 2018 00:49:10 -0600
+
 qbs (1.12.2+dfsg-2) unstable; urgency=medium
 
   * Add a patch to fix segfault with --log-level debug (closes: #917066).
